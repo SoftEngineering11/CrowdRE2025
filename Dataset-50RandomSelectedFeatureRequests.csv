@@ -1,0 +1,2506 @@
+SN,App ,Request Number ,Request Title,Request Description ,No of Comments,Comments 
+1,Mastodon,42,Make view from timeline back,"I like this , because it makes me feel I am not alone on then earth. Every time I view the post from different from the timeline, I can feel they are all alive, not only me. Every time, every second, I can meet new friend, maybe he is in Japan, having dinner, or In French.
+
+
+
+Now the feature of viewing from timeline is not in mastondon-android. I like the hot trending, then I can know what people are talking now. But I feel lonely when use your app. I find out that it is because I cannot always read a new post, cannot always know who may be will be my friend, what he is doing ,worring. So I need this feature.",8,"
+
+I don't mind mastondon being a second twitter, but although it is twitter, twitter also have the Option to view from the timeline.
+
+When you follow people you will get their new posts in your home feed. 
+
+> When you follow people you will get their new posts in your home feed.
+
+But without timeline ,how can I follow interesting people? And what about the chance for the post of a nobody be seen by another ? 
+
+> twitter also have the Option to view from the timeline.
+
+What exactly do you mean by ‚Äúview from timeline‚Äù?
+
+> > twitter also have the Option to view from the timeline.
+> 
+> What exactly do you mean by ‚Äúview from timeline‚Äù?
+
+Sorry , I may got a mistake. The timeline of twitter is only for who your follow..I don't use twitter frequently. My friend has show the feature of twitter, then I mistake twitter has this feature
+
+> But without timeline ,how can I follow interesting people?
+
+Check the explore tab!
+
+Is this issue about something meaningful, or is it safe to close?
+
+> Is this issue about something meaningful, or is it safe to close?
+
+Yes,I will close"
+2,Mastodon ,107,Can't view image descriptions,"I know a screen reader can still read them, but it's important to me to see if there IS a description so I know if I can boost these posts to my disabled followers",2,"
+
+I'd like to be able to view image descriptions without having to use a screen reader. ?ü§?
+
+Maybe a duplicate? #100
+
+Duplicate of #100"
+3,Mastodon ,83,Cant log in,"I downloaded the Mastodon android app. I am using social.tchncs.de server, I typed the server address and selected it, when I press next it says ""preparing for authentication"" but it does not enter, I tried it on other servers, same problem exists.",4,"
+
+Are you coming to the login page ?
+
+> Are you coming to the login page ?
+
+No
+
+I am also experiencing this issue.
+Creating accounts works fine but logging in into existing ones is where it fails.
+I click login, select the server, opens a website asking if I Authorize the app, I click Authorize, It loads something but nothing else happens, if I switch back to the app nothing changed.
+
+It may be because the redirect uri is wrong or the app is not configured to read the protocol"
+4,Mastodon,8,Add local and federated timeline,At the moment there seems to be no way to access local and federated timeline. Please consider adding that feature. ,17,"
+
+Without this feature, the app can only be used to a very limited extent.
+
+At least have the local timeline, it is important for community-building on smaller instances, and smaller instances are what keep Mastodon from turning into Twitter.
+
+If we just cater to big instances, the network will be vulnerable to being bought up, and all our efforts will be pointless.
+
+Dont really see a point using this app without the local timeline.
+
+Good design, but in the last smalll new users waves in Germany I was in contact to several New Accounts using the android Mastodon APP. They totally misunderstood the mastodon decentral aspect, as they don""t get the chance to feel it via this app and I failed explaining until I recognized, it's the app. People who have the spontaneous mood to try a 'new' social Network with a new app, don't like to be told, nice try, do it again, as the official app is only giving you a distortion of reality.
+So add Local and Federated timeline, otherwise the approach of decentral instances and so a diverse alternative network will die and mastodon.social will be as social as Twitter.
+
+On one hand I do understand the motivation in removing these timelines and I can begrudgingly accept that it probably is the best option for users coming from twitter. On the other hand I can't help, but feel this betrays the already existing user base, especially the users from smaller instances. The whole point of the Local timeline is to have a space for discussion with like minded people. That's why we have communities built around different themes. In essence that's exactly what separates Mastodon from Twitter. I don't want just an open source version of Twitter, that's not what I signed up for.
+
+I feel there could be a sort of compromise here. Instead of outright removing the Local and Federated timelines, just hide them by default. That way people who know about them can use them, others don't even have to be aware of their existence.
+
+It seems like the problem is this:
+
+On large instances, the risks of a Local timeline outweigh the benefits. On large instances, the Local timeline is a firehose just like Federated, impossible to read and full of potentially nasty content but impossible to browse for fun. Seems like a no-brainer to zap Local.
+
+On small instances, it's the other way around. The benefits of a Local timeline outweigh the risks, it's not a firehose, it helps build the community and people are much less likely to see nasty content because the moderators have better control over troublemakers. Removing Local seems like a bad idea.
+
+I'm not sure how this situation can be resolved, maybe Local could be for instances below a certain size?
+
+> I'm not sure how this situation can be resolved, maybe Local could be for instances below a certain size?
+
+it depends on what kind of instances you want to focus on, if decentralize is the point we need to privilege small instances.
+
+You can access the local timeline under search/community
+
+I think **global timeline** is very important for smaller  instance. You need this to discover other people and to expand your visibility.
+
+Local timeline was added (search -> community), and I believe there are no plans to add the federated timeline (@Gargron correct me if I'm wrong). One issue with adding a federated timeline is that it's more-or-less unmoderated and thus adds a non-zero risk of app stores, especially Google Play, rejecting the app over something outside of our control.
+
+> I think **global timeline** is very important for smaller instance. You need this to discover other people and to expand your visibility.
+
+The explore tab is in essence a moderated, quality-filtered federated timeline. Its purpose is to help you discover other people and expand your visibility, but without being a vector for spam and abuse. 
+
+>One issue with adding a federated timeline is that it's more-or-less unmoderated and thus adds a non-zero risk of app stores, especially Google Play, rejecting the app over something outside of our control.
+
+Do you have a specific play store rule in mind for that? 
+
+> > One issue with adding a federated timeline is that it's more-or-less unmoderated and thus adds a non-zero risk of app stores, especially Google Play, rejecting the app over something outside of our control.
+> 
+> Do you have a specific play store rule in mind for that?
+
+Examples from Mastodon apps specifically:
+
+- [Tusky has been removed from the Play Store](https://chaos.social/@ConnyDuck/105904002285019275)
+- [Fedilab has been removed from the Play Store](https://qoto.org/@freemo/104765288863293481)
+- [Subway Tooter threatened to be removed from the Play Store](https://subwaytooter.hatenadiary.jp/entry/2020/09/01/161533)
+
+Examples from other decentralized apps:
+
+- [Element has been removed from the Play Store](https://element.io/blog/element-on-google-play-store/)
+
+Examples from non-decentralized apps with user generated content:
+
+- [Tumblr removed from the Apple App Store](https://www.theverge.com/2018/11/20/18104366/tumblr-ios-app-child-pornography-removed-from-app-store)
+
+While all of them have been reinstated since with varying degrees of changes (Tumblr ended up banning all adult content from its platform altogether to avoid the issue), it is evident that Google (and Apple) hold apps accountable for user-generated content.
+
+This commit of mine https://github.com/mastodon/mastodon-android/commit/318d271127be441ada22cff9d96ec74fcaa3d873 implements the federated timeline - you can use my fork (which I don't plan to release on the Play Store anyway), which has this and more features the official app won't implement: https://github.com/sk22/mastodon-android-fork#changes
+
+There is now a conception going around, from users using the official Mastodon application, that once you join an instance, you're in an echo chamber.
+
+If smaller developers of Tusky can get their application back on the play store, Then larger organizations such as Mastodon should have no problem negotiating with larger corporations.
+
+Example of Misconceptions being spread.
+https://mobile.twitter.com/VeryBadLlama/status/1589086085380190209
+
+I'm not sure why this issue is closed. All the links posted by @Gargron are resolved.
+
+What Play Store & Apple Store did makes no sense & so does the reasons provided.
+
+If paedophiles watch child porn on chrome browser/safari in their mobiles (which they do), are Google/Apple going to remove these browsers from the store? Browser is just a client. It has no obligation to spy on users as to what content they are watching (if it spies, no one will use it even for legitimate purpose, let alone pedos).
+
+This client app is just a tool to connect to any mastodon server & load content. Since the app got no control over the servers (nor should it), there is no good reason to ban official Mastodon app, let alone other clients. Here are my reasons why they cant ban this app for meeting basic expectations
+
+1. What Apple & Google did makes no sense (explanation above)
+2. Since mastodon has good visibility now, there will be tremendous public pressure to back off
+3. Many lawyers would be willing to fight against unjust ban (if Big Tech bullies bans)
+
+These Big tech bullies must have assumed people wont complain if they bully app developers (which they know they can do, thanks to ""legal"" monopolies they have which they ensured thru bribes to politicians to not break these monopolies), but since mastodon is mainstream app, they cant bully that easily now.
+
+Incase of twitter, the data is stored on twitter servers. So, Apple & Google can bully. But incase of mastodon, the app has no business to know which instance its talking to & what content is being stored in it. So, this app cant be held liable to for any harmful content.
+
+If issue is the threat of banning (which imo is not a legitimate concern), why not publish multiple versions of app to playstore, where new development happens on a canary version (to test waters in playstore with all experimental features), while main app is still available for download incase if canary version is banned (unlikely)?
+
+& also publish same canary version to non-google repos too, but still certified by repo maintainers to be malware free, so people can still install it if BTB take it down & the issue is being litigated, people can still download feature rich app? And this allows stability in the main branch too so features can be promoted to main app if the feature is liked by people & is stable enough.
+
+> a vector for spam and abuse
+
+I understand this concern on giant instances like mastodon.social, where there will always be something improper in the federated timeline, but the experience on other instances is very different. Some options could be:
+* make the federated timeline available only for smaller instances (under 500 active users?),
+* make the federated timeline available only for instances with closed registration/registration by application,
+* only show posts older than 8 hours (or whatever) on the federated timeline, so that there's time to moderate them;
+* give some control to instance admins to decide whether the federated timeline will be shown to their users.
+
+Of course at the moment mastodon.social looms large https://github.com/mastodon/mastodon-ios/issues/1023#issuecomment-1617386974 but in the future if the app gives more choice to users again we'll be able to see whether access to the federated timeline makes a difference in terms of user retention etc."
+5,Mastodon,58,Feature: Open toot with another profile,"(As I just learned) it's possible to be logged in to multiple profiles in the Mastodon app. When coming across an interesting toot, one might want to boost it not only with the current profile but also with one of the other profiles.
+
+Therefore, it would be useful if the three-dot menu of each toot contained an option to open it with another profile.
+
+For reference, this is what the feature looks like in Tusky:
+
+https://user-images.githubusercontent.com/52963327/164234244-dfaf697b-1032-4323-b88d-69b63b825fb6.mp4",2,"
+
+Additionally boosting and commenting should be possible for all accounts signed in on a device without having to open the toot with the preferred account first. 
+
+Maybe using long press on the existing buttons should open a context menu offering to use a different account for performing the interaction.
+
+> Additionally boosting and commenting should be possible for all accounts signed in on a device without having to open the toot with the preferred account first. 
+
+That might be difficult to implement because at click time we don't necessarily know whether the other accounts even have access to that post.
+
+It could happen that, for example, you're able to view the post from account 1 but not from account 2 because it's been blocked by the author.
+
+Or, in case of favouriting, the post may be followers-only but account 2 is not a follower.
+
+Of course, it would be possible to just try the action and wait for a possible error message from the server, but I don't think that would be the best UX.
+"
+6,Mastodon,170,Option to hide reblogs from people you follow,In the dropdown on profiles.,3,"
+
+this would be really useful
+
+This appears to have already be implemented in https://github.com/mastodon/mastodon-android/commit/789d02d8103cab3a897ca8015b647bf8461d96e4 ?
+
+What I would like to have the ability to do is toggle visibility of reblogs/boosts while looking at someone's profile, including mine (to answer: ""what did I/they write?"") - does this need of mine belong in a separate ticket or could it solve the same need expressed above ?"
+7,Signal,72,Message content preview in notification bar,"I'd like to get a preview of the messagge in notification bar.
+Could be also good a JB-style quick reply fuction.
+
+Thanks for your working and this awesome software!
+",4,"
+
+The preview should only be visible if the textsecure key is cached. If not, it should just display that you receive an SMS. I don't know if android permits to update a notification or to delete an existing notification then recreate a new one though.
+
+
+Using default SMS app that's possible so I think it could be also on text secure, of course using a cache password. And also when I receive a message and click on notification it asks me for the password also if it already cached. Do you know how to fix it? 
+
+
+What I mean is that the preview should only be in cleartext if the key is cached, otherwise, it should just notify of one incoming message, without more details than existing now
+
+
+0a8c62e0e3d574a0a0b2be0d0f6d098935fa2686
+"
+8,Signal,312,Need Batch Selection Mode for individual messages inside a conversation,"Deleting individual messages from a conversation is cumbersome and inefficient (Hold down on a message, then select Delete from popup menu, then select Yes on confirmation message, one message at a time).
+
+By way of contrast, holding down on a conversation in the Conversations list initiates Batch Selection Mode, allowing user to select multiple conversations for an action (currently Delete is the only option). 
+
+Being able to trim out fluff from a conversation but keep important messages would be a valuable feature. A similar Batch Selection Mode for individual messages within a conversation (as already exists in the default Android Text Message app) would provide this functionality.
+",2,"
+
+I think this should be closed as a duplicate. This issue is a lot older, but #786 is way more active.
+
+
+agree, thanks!
+"
+9,Signal,587,Support an 'invite friends' feature.,"How about having a handy link (and easily found) to allow users to share your app? 
+",5,"
+
+https://tinyurl.com/TextSecure => https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms
+
+
+You can do that for _any_ app on the Play Store's listing in the Play Store app in your device.
+
+
+Dear Sir, 
+I figured it owuld be possible to do that. The thing is - I don't know how to extract  alink to take someone directly to an app's page on the Playstore. If you can advise on that, that would be appreciated. Surely though - it would be easier to have an in-app ""share"" feature? 
+
+Regards, 
+Wilfrid K. 
+
+---
+
+Sent with K-@ Mail by Samsung Galaxy Note 2.
+Secure your Email with PGP! Check out APG in the Android Playstore!
+Secure your mobile!
+http://www.whispersystems.org
+Red Phone app: make secure calls with wi-fi or data, & not plan minutes! 
+
+On Feb 7, 2014, Santoso Wijaya notifications@github.com wrote:
+
+> You can do that for _any_ app on the Play Store's listing in the Play
+> Store app in your device.
+> 
+> ---
+> 
+> Reply to this email directly or view it on GitHub:
+> https://github.com/WhisperSystems/TextSecure/issues/587#issuecomment-34472558
+
+
+Dear Sir 
+Please disregard my last reply to this message. I have just figured out how to ""share"" the link to an app! 
+
+Regards, 
+Wilfrid K. 
+
+---
+
+Sent with K-@ Mail by Samsung Galaxy Note 2.
+Secure your Email with PGP! Check out APG in the Android Playstore!
+Secure your mobile!
+http://www.whispersystems.org
+Red Phone app: make secure calls with wi-fi or data, & not plan minutes! 
+
+On Feb 7, 2014, Santoso Wijaya notifications@github.com wrote:
+
+> You can do that for _any_ app on the Play Store's listing in the Play
+> Store app in your device.
+> 
+> ---
+> 
+> Reply to this email directly or view it on GitHub:
+> https://github.com/WhisperSystems/TextSecure/issues/587#issuecomment-34472558
+
+
+hello
+Add more emoji please, need too much
+"
+10,Signal,937,Conversation View: Consistent message order,"Please correct me, but as far as I can tell, messages are sorted by time of arrival. However, since the messages are transported either via SMS or via Google Cloud Messaging, both of which don't guarantee ordering, messages may appear in the wrong order. This means that chat participants may see deviating orders of messages, replies to messages they don't even see. In theory, it's even possible that several messages from the same sender arrive and are displayed in wrong order.
+- Idea 1: Sort the conversation view by ""sent"" timestamp. See also #806. Problem: What is the ""sent"" date? Is it reliable? Is it set by the client or the TS server (farm)?
+- Idea 2: Give each message a sequence number generated by the TextSecure server. Sort conversation view according to those numbers. Problem: Many, but not all messages go through the TS server.
+- Idea 3: Employ vector clocks.
+",5,"
+
+If it's an encrypted conversation, we can actually display pairwise messages in a cryptographically guaranteed order.
+
+
+Sounds fancy ;-) I have just experienced another use-case to consider:
+
+Just received a message sent 10:52, received 12:11. There were several messages in between. Of course, the 10:52 message shows last, and makes no sense in the context.
+
+I know you can't get guarantees out of GCM, but maybe you can display a bubble like ""There should be a message here! 1 or more messages still in transit."" - once the message(s) arrive(s), replace the bubble with it/them.
+
+
+Here's a third use case.
+
+As a security conscious user, you frequently remove the battery from your phone.
+
+When the battery is removed from the phone, on some models, the date and time reset to 00:00 01/01/1970, or some such.
+
+Then text messages start arriving as soon as the network connection initializes.
+
+The messages pile up at the top of the message thread. On long message threads, you have to scroll up for half an hour to see them. They are all in the wrong order. 
+
+The more frequently this happens, the more messages gather at the top of the message thread appear in an asynchronous mess.
+
+The only workaround is to turn on plane mode as the phone is booting up, and set the date right before turning it on again. 
+
+Couldn't incoming messages just be added to the bottom of the thread, no matter what their timestamp is?
+
+
+GitHub Issue Cleanup:
+See #7598 for more information.
+
+
+This feature request is being discussed and tracked [here](https://community.signalusers.org/t/message-ordering/2581)."
+11,Signal,1173,"Add ""Don't show again"" checkbox to thumbnail dialogs","To improve the usability, the thumbnail dialogs (open and save) should contain a ""Don't show again"" checkbox so that the user isn't bothered again.
+
+The idea is, that the user understands that there might be a little risk in opening or saving an attached image, but doesn't want to see this warning again and again.
+
+Most users expect that the image instantly shows up. So it is nice to have this warning message, but there should be the possibility to disable it.",8,"
+
+In my pull request for Feature 520, ive done the same. Maybe you can use that code.
+
+
+Ok, I hadn't noticed that issue #520 and corresponding pull request #932 are covering that. I think mcginty's statement about major changes in media / attachment handling is also important.
+
+Probably it's best to wait until your or other's changes get merged. That may change a lot.
+
+
+No, I might have expressed myself unclear, the pull request merely does the
+same 'dont show again' stuff, but for another topic (taking attachments,
+not storing them).
+But I too think it would be best to wait and see what @mcginty decides on
+how things change.
+
+
+We're trying to eliminate this phenomenon all together in the media branch.
+
+
++1
+@Moxie0 should I close my PR then?
+
+
+@moxie0 after reading through a handful of tickets a realized that there are multiple references to that media branch. What is the current status of that branch? I think many people (like me) are missing convenient media features and features like this one (permanently dismiss the warning or make it configurable).
+
+
+I guess this can be closed as https://github.com/WhisperSystems/TextSecure/pull/1826 is in now?
+
+
+Indeed it can. The latest version of TextSecure has an integrated media viewer. No more pop-up!"
+12,Signal,2098,Automatically resend undelivered messages,"Since the delivery confirmation functionality has been implemented, I sent 48 messages. For 3 of these, I did not get a confirmation that they have been delivered.
+
+It would be nice if messages are automatically resent if no delivery confirmation is received. Especially, if later messages to the same recipient do get a delivery confirmation, indicating that the recipient is reachable again.",14,"
+
+I think you're missing the point.
+The app shouldn't resend messages that are not delivered. Messages should ALWAYS be delivered (if the recipient is online of course), period. What I don't get is why messages stopped being delivered since they introduced delivery receipts. THAT'S the bug for how I see it.
+
+
+The question is in which way the delivery receipts are implemented. Maybe just the delivery receipts are lost or not send for some reasons. Maybe @moxie0 can assist wtih some clarification here.
+
+
+@manhole11 true, messages should always be delivered. It's merely that since the delivery confirmation it becomes clear that this is apparently not always the case.
+@Dave1704 I will try to verify with the recipient if the messages did arrive, and if only the delivery receipts were lost.
+
+
+@Dave1704  I checked with the recipient. I could only check for two unconfirmed messages because the rest was already deleted. These two messages did arrive, but I did not get the confirmation. So it looks like that the confirmations get lost.
+
+
+It's good to know which messages are lost. But I can't really do something about it. I'm no developer here. I just check the issues and try to assist as much as I'm able to.
+
+
+I'm having similar problems, but for me sometimes the original message does not delivered, so it is not just confirmations that don't arrive
+
+
+The original message and its receipt use the same transmission channel (both are just ""messages"" on the GCM service), and since this channel is prone to data loss, either message could be lost and the message would be shown ""unconfirmed"" to the sender. In practice, one could assume half the unconfirmed messages would be lost.
+
+@manhole11, while it may be worthwhile to improve reliability between the intermediate server (e.g. GCM) and the receiver, full reliability can only be achieved end-to-end, which means there must be a retransmission mechanism that is triggered by the sender's TextSecure application. After all, the message may even be lost before it reaches the GCM.
+
+
+""..and since this channel is prone to data loss.."" this is true for any channel, however this problem happens only when using textsecure. All my other applications work just fine.
+I don't think it's a problem with the channel...
+
+
+@manhole11, do you have a specific other application in mind that uses GCM and does not exhibit this problem? Do you know whether they have implemented retransmissions themselves?
+
+
+I don't know which other apps I have use GCM, the only thing I know is that textsecure is the only one having so many problems and I'll ditch it as soon as hemlis will be released. If GCM is the problem, then use something else. I mean, it's a problem of the developers. I don't care that much; all I care about is having an app that works and hemlis works :)
+
+
+Copying my issue description from #2293:
+
+> Currently message delivery is unreliable. It often happens that I send a message to someone, but do not get a message receipt (check-mark icon). Messages sent later get a receipt. When I talk to the person a few hours later, they tell me they did not receive the message.
+>
+> This issue is not limited to me sending, but also happens the other way around. It also happens for other people, as I have been told. It also happens for the message receipts themselves ‚Äì sometimes a message arrives on my phone, but the sender never receives the receipt. The CyanogenMod integrated WhisperPush service is not involved. The issue happens between stock Android users, as well as with CyanogenMod users.
+>
+> From reading other issues I understand that GCM does not offer reliable delivery. I wonder if the equivalent of [XEP-0198 section 4 ""Acks""](http://xmpp.org/extensions/xep-0198.html#acking) could be implemented on top of it in TextSecure.
+>
+> Possible duplicates: #679, #970, #1971, #2098, #2238
+
+
+After some more investigation, I discovered that TextSecure at the recipients end crashes quite often while the app is in the background or the phone is suspend mode (see #2037). So in my case GCM is not the culprit.
+However, I made also the observation that messages sent to the user where TextSecure stopped working do not arrive anymore when TextSecure is started again. I would expect that GCM would still try to deliver them.
+However, whatever the cause of delivery problems is, GCM or TextSecure itself, it still would be great if additional attempts are made to resend the message until its delivery is confirmed. And yes, I understand that TextSecure cannot keep trying into eternity.
+
+
+on second thought closing as dupe of #2015
+
+
+@rhodey: I'm not convinced that this is a dupe of #2015. This issue is not about the unavailability of a data connection, but about the fact that a message confirmation never arrives. The absence of a message delivery notification indicates that the message could not have reached the recipient."
+13,Signal,4031,Cancel media download ,"Add option to cancel running media downloads
+Once we go large media this is really needed",5,"
+
+I'd add an option to cancel running media transmission, too :wink:
+
+
+I can solve this issue. What i need to do to help in this project?
+
+
+@jodson i'd recommend starting off with something smaller to get used to the codebase. check out the ""easy"" tagged issues.
+
+
+Ok. Is it just start coding and then commit? Or need some discussion about that ""easy"" tagged issues?
+
+
+GitHub Issue Cleanup:
+See #7598 for more information."
+14,Signal,4333,allow direct sharing to contacts via 6.0 ChooserTargetService,https://developer.android.com/reference/android/service/chooser/ChooserTargetService.html,6,"
+
+Hi - I really miss this feature from Signal - if I were to implement it and create a PR, would it be accepted?
+
+
+Please refrain posting ""+1"" ""me too"" ""I would a love this feature"" ""same"" etc. as a comment without any NEW or actionable information.  The emoji in the comment header allows you to ""add your reaction"" if you want to express your interest in the feature/comment.
+
+What is the status of this issue (feature request)? I checked the most recent pull requests and it doesn't seem someone is working on it. Does it need approval before anyone can work on it and submit a PR? @emmaguy asked the question but no one answered. I wouldn't mind working on a PR for this feature.
+
+@cavega I think you can always work on a PR.  Mainly it would probably depend on if @moxie0 feels there are any security issues with this direction or if it's valuable.  My $0.02 is that it would be pretty handy.
+
+@jeremymasters Thanks for the response.
+
+
+
+This feature doesn't expose any app information. It would still use the existing Intent mechanism that current allows to send content from 3rd party apps into Signal.  Its primary usage would be to share info from 3rd party apps into the Signal app by bypassing 1 UX interaction.
+
+
+
+Instead of:
+
+
+
+- Click share from 3rd party app
+
+- Select Signal app from options
+
+- Select desired contact
+
+
+
+It becomes:
+
+
+
+- Click share from 3rd party app
+
+- Select desired Signal contact (Note: Some of the most recent Signal contacts become available, but user can still select Signal app, through existing flow, to pick other contact to send data to).
+
+
+
+@cavega In that case a PR would definitely be received favourably. Make sure you tag someone to review it so that it doesn't go unnoticed."
+15,Signal,5476,"Send using ""Enter"" Key on Hardware Keybaord","Feature request: when using an external USB keyboard with my device on Signal, make it possible to send messages using either:
+- <kbd>Enter</kbd>
+- <kbd>Ctrl</kbd>+<kbd>Enter</kbd>
+- <kbd>Shift</kbd>+<kbd>Enter</kbd>
+
+If desired to send on plain <kbd>Enter</kbd>, <kbd>Shift</kbd>+<kbd>Enter</kbd> should enter a newline.",8,"
+
+What happens when you change the setting **Enter key sends** in **Advanced settings**?
+See #2374
+
+
+@2-4601 to be honest I haven't tried that yet, though I'd prefer it be a separate setting for strictly hardware keyboards only. With a hardware keyboard, it's easy enough to use <kbd>Shift</kbd>+<kbd>Space</kbd> to force a newline and have <kbd>Enter</kbd> send by default. On a software keyboard, not so much. If the enter key on a software keyboard sends by default, how would one insert a newline if needed?
+
+
+Thanks but we're not going to do this
+
+
+Would you reconsider this request? There needs to be a way to insert newlines and submit the message independently, regardless of the specific configuration of each. With the ""Enter to send"" option ON or OFF, there is still not a way to independently control each of these actions without constantly toggling the option.
+
+
+
+It's very annoying to have to remove my hands from my bluetooth keyboard to hit the Send button. I much prefer to hit CTRL+Enter to send, and press ENTER to get a newline.
+
+Yeah, just came across this since I love to type messages using my bluetooth keyboard switching easily between devices.
+
+
+
+A CTRL-Enter to send would be perfect! So I second this request!!!
+
+
+
+Thx a lot for considering this!
+
+Control Enter or Shift Enter is standard in other applications that allow both multi-line messages and external keyboards. Would y'all please reconsider?
+
+If you're using the Samsung Smart KBD Trio 500 to type text messages you have to press **Alt+Enter** to send the message within the phone messaging app. I don't know if this works for all texting/messaging platforms but this does work with the default Samsung phone keyboard in the Samsung messages app. This may work on other Bluetooth keyboards as well so I thought it was worth sharing.
+
+Don't expect much since this was closed, but I'll still comment just in case it helps it get revisited. Thank yall for the app."
+16,Signal ,176,Feature: Automatic deletion of old messages,"In the spirit of https://ssd.eff.org/your-computer/protect/retention having deletion of messages older than a certain amount is probably good practice. I previously used an automated tool to delete SMS messages older than 30 days, but since TextSecure uses its own database, this no longer works.
+
+Having the option for TextSecure to delete messages older than X (reuse of the passphrase timeout selector would be fine) would be highly helpful.",3,"
+
+I'm going to try to see if I can hack together some code to do this, watch this space.
+
+
+Are you going to work on this again, or are you happy with the message-based approach we have now instead of the time-based one? If you are not going to pursue or ask for it further, can you please close the ticket? Thanks!
+
+
+Settings > Delete old messages > _check box_"
+17,Signal ,455,Signature below SMS message,"Hi,
+in oder to advertise TextSecure to my friends I'd like to add a (short) signature. E.g.
+
+---
+
+I use TextSecure for private and secure communication!
+
+---
+
+do you find this worth implementing?",5,"
+
+I would like to see this feature so I can promote TextSecure.
+
+I would like to be able to share such signature just as I would hare an emoji or attachments.
+For example: Button Press > [I'm given the option to insert a pre-confirgured message OR my own pre-configured message with a hard-set pre-configured link to the TextSecure play store page.
+
+I wouldn't like to be forced between including & not including the promotional signature with all unencrypted messages.  In other words, a simplified way to share the TextSecure play.store page link from within TextSecure rather than having to: Go to Play Store > TextSecure Page > Share > Fine App {TextSecure]
+
+
+I think the 160 characters of a sms is a bit short to include a signature. Besides I personally find annoying to see signatures longer than the message itself, I kind of hate the 'send from my iphone' signature.
+
+If this gets included I think this should be disabled by default.
+
+
+Apparently some industries require every outgoing message to contain a signature. Realtors in California, for example, must attach their name, company name, and phone number to every SMS they send. This recently came through as a request to the Support Center, so I'm passing it along here.
+
+I definitely agree that it should be disabled by default, but giving users the ability to customize a signature would be a nice feature.
+
+
++1 for disabled by default. We can just give people the possibility to add a signature and the default signature when activated is some short TS promotion slogan.
+
+
+GitHub Issue Cleanup:
+See #7598 for more information."
+18,Signal ,1055,drafts should be marked and moved to top of list,"the message drafts should be automatically moved to the top of the message-list and be marked somehow, i.e. get another color or a text ""Draft""",4,"
+
+I totally second this.
+Though i would not need it to be moved to the top.
+
+I often get disturbed when writing which leads to drafts I forget to send. How would i now if not marked somehow?
+
+If not show it by a text or a symbol, how about showing the text in conversation list and change the font style to italic (red color would also work, except for color blind people i guess!)?
+
+
++1
+
+
+absolutely!! but definitely move the draft threads to the TOP of the list as if they were just sent from.
+
+i start to write a message then i need to leave the app for a second and it saves a draft but it does not move the thread with that draft to the top of the list so when i come back to finish my draft i have to scroll down to find the thread. this is very tedious.
+
+
+Yes, I would like this too. I think I could figure out how to add this, but do the maintainers agree that it should be?"
+19,Signal ,969,Color incoming messages in groups according to author,"Since there's so many UX experts around lately, I want to propose this:
+
+In groups, I always find it kind of annoying to have to read the name of the sender of a message. Somehow that distracts me from the actual messages. What do you think about this: In a group message, every incoming message is colored based on the author. Basically, we'd need a ""string to RGB"" hash function (shouldn't be that hard) and then color the background of their messages with 20% opacity (or so..)
+
+That way, I know that everything that's green is from my Buddy Bob, and everything that's yellow is from Alice, and I can just read the whole conversation without reading the name in front of every single message...",9,"
+
+Now that I think about it, another idea: Don't color the messages but the avatars. Obviously, this issue does not arise with people who have profile pictures. So if they don't, they have an avatar. We could just uniquely color that avatar instead of the whole message, if that would be too much color...
+
+
++1 to coloring the avatars!
+
+Btw, telegram does so too.
+
+
+@tinloaf: yes, coloring the avatars is a good idea. But I wouldn't just try to ""randomly"" generate a color.
+You don't want to insert random colors, that'd look horrible. But we can have a rather big preset, from which each contact gets one permanently as soon as he joyns his first group.
+
+The colors should of course also be user-selectable. And for real power-users a color picker would be useful.
+
+
+I think something similar to how gmail does avatar coloring (with our without the massive letter) would be in order. It'd be something simple and uncomplicated to both break the monotony of the same image being repeated many places, and adding distinction and uniqueness for each contact.
+
+
+I don't have gmail, but if it's anything like K-9 mail, I know what you mean. Yeah, I like that idea, I just did not yet come up with a good color-selection-idea. I'm afraid that @lindworm is correct in that choosing the colors ""randomly"" (by hashing the contact) results in ugly colors. Perhaps I should have a look at how K-9 does it.
+
+**Update**: Do you think it's neccessary that the colors stay the same across multiple groups? I.e. that Jon Doe is always yellow? Otherwise, we could just assign a relatively small palette (20 colors or so) and map the list of participants to it...
+
+
+I build this, have a look at #1027. There I use a solution that determines the color based on the contact's name, so it should be consistent across multiple group chats. We could use some more colors though, I guess.
+
+
+@tinloaf nice, is it also possible to  set the colors manually? I fear that's going to be the first thing they cry for..nobody wants to be cyan ;-)
+
+
+Well, no.. this would mean we actually have to store something somewhere, and that's always messy (you have to have a Database, write some database wrapping code, code for setting the data manually...) I honestly don't think that the complexity this would add would be justified by ""my friend Alice doesn't want to be green."" ;)
+
+
+@tinloaf I really fear that's going to be an issue. Not for me, but for the average user. People love to custimize their stuff, and many are quiet emotional regarding colors. Have you ever been able to play a game of Ludo (""Mensch ?§rgere dich nicht"" in German) without fighting who gets to be red and blue? ;-)"
+20,Signal ,1133,Deletion of contact keys,"Hello moxie,
+
+could you please let us delete the contact keys?
+
+Several of my friends changed their number or uninstalled TextSecure, I'm not liking to scroll threw their contact keys whenever I check them.
+Let us long press them for deleting, add a warning and everything would be fine.",4,"
+
+This is a duplicate of #682...
+
+
+@Waboru There are ~500 open issues here now. We've got a lot to do. The best way to help is by commenting on other issues in order to get them resolved, doing research into possible solutions, finding and closing duplicates, answering common questions, or even submitting PRs.  What _doesn't_ help is posting the same comment twice in a row, which just generates more email for all of us to read when we're already overwhelmed with it.
+
+
+I'm sorry, I reposted it because the other issue was closed. So I thought you won't think about adding this feature anymore.
+Won't happen again, sorry!
+
+Could you please tell me if it's planned?
+
+Thanks a lot for your great work moxie. :)
+
+
+Closing as duplicate of #682 (plus obsolete features)"
+21,Signal ,1875,Import backup: Please tell me how old the backup is I am going to import ,"I would like the 'import backup' screen, that asks me whether I want to continue (""... will completely replace your existing keys, preferences, and messages""), to tell me the date of the backup I am going to import.
+
+(I mistakenly thought TS would automatically, regularly, create encrypted backups (like it should be, IMHO) and imported a backup from February -- half a year of messages and photos gone. Didn't know about #1631)",4,"
+
+Shouting out to @mcginty as I believe she is/was working on the backup thing.
+
+
+Sounds like a good idea to me. Btw: mcginty is a he ;)
+
+
+Ah, thx!
+
+
+GitHub Issue Cleanup:
+See #7598 for more information."
+22,Signal ,5529,"Disable ""Screen security"" by default","I have:
+- [x] searched open and closed issues for duplicates
+- [x] read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports
+
+---
+### Feature description
+
+It's quite common to see non-passphrase users wonder why screenshots in Signal don't work. It probably doesn't make sense to have **Screen security** enabled by default for them.
+For passphrase users it makes sense.
+
+One option would be to remove the feature completely from settings and make it an implicit feature which depends on the passphrase setting.
+
+> In https://github.com/WhisperSystems/Signal-Android/issues/1431#issuecomment-41502999 moxie0 wrote:
+> [The Screen security feature i]s not designed to prevent screenshots, it's designed to notify the task manager that it shouldn't cache screenshots of conversations. The side effect is that it prevents screenshots.",5,"
+
+Disabling it by default may be a good idea. But why the distinction between people using a passphrase and people who don't? I imagine that if the _Screen security_ setting changes automagically when people change the passphrase setting, this could create additional confusion.
+
+
+> One option would be to remove the feature completely from settings and make it an implicit feature which depends on the passphrase setting.
+
+That would making screenshots in case of issues complicated. Changing the default might work, but removing the option completely seems a bit overdone to me.
+
+
+I'm fine with disabling it by default.
+
+
+> But why the distinction between people using a passphrase and people who don't?
+
+Just thought that a passphrase user would not expect to see a screenshot of a conversation in the recents list after they have locked the app.
+
+But I guess it's true that disabling the _Screen security_ for all users by default is the most straightforward way.
+
+
+Was handled in
+
+* ba849bce2c90287e820a3008e9dc9a1b14de19fc
+
+* 5270dad78966f67c51d9aaa2a6747cf4f0259eba"
+23,Signal ,6468,Iran Censored Signal Again!,"Hi AFAIK In This Issue #5992 Iran Censored Signal and It Seems Problem Solved Here #6006
+
+As We Can See In This Link :
+
+https://github.com/elliptic1/Signal-Android/commit/af0ff7d7618425d8aa63da98ab474ccd47dae387
+
+But I Installed v 4.1.0 From Google Play Recently And When Try To Enter My Phone Number and Receive Message The App Shows Me ""Signal Was Unable To Connect To The Server"".
+
+The Problem Solved When I Used L2PT VPN USA Country.
+
+This Mean Unfortunately Iran Censored Signal Again So Please Solve This Issue Again.
+
+Thanks In Advance",6,"
+
+From what I understood from the discussion then, Google blocks the domain fronting functionality from Iranian IP's.
+
+@johanw666
+
+How About Other Websites That Provide Domain Fronting?
+
+I Searched Recently and It Seems Other Sites Also Provide This Service Like Akamai , Amazon and etc.
+
+Of course Amazon is Already Censored In Iran! Anyway Iranian People Need This Messenger Specially When The Presidental Election Is Near About Next 1-2 Months .BTW Must be a Solution! For This Issue!
+
+Thanks In Advance
+
+Regards
+
+AFAIK OWS  would have to make an agreement with one of the other services that offer domain fronting, and then code it in the app. I don't know how fast the first issue can be completed (putting it in the app is then trivial).
+
+Same issue.
+
+It's not about making agreements. OWS could switch to other providers like Amazon or Azure and that would fix this issue for millions of Iranians trying to get online.
+
+GitHub Issue Cleanup:
+See #7598 for more information."
+24,Signal ,1692,sms delivery report: show received time in message details,"when a sms delivery report is received, the time the other user received the message (afaik the `done date`) should be saved and it should be possible to view it in message details. This way one could see **when** the other user received the message (not only that is was received).
+
+edit: if someone can give me a hint where to look/start in the code to implement this, I'd try to make a pull request (but I just glanced through the code and cannot find a starting point ... maybe it's simply too late already ;-))",12,"
+
+That sounds reasonable, but since the receipt code is going to change a lot over the next days (moxie is bringing receipts to the push messages, see according pull request), it's probably not wise to start messing with it now. ;) Would be reasonable to implement this while being at it...
+
+
++1, this is a useful feature of the default SMS application.
+
+
+I'd expand a bit: it is usually required to register
+- creation time (when the message was written)
+- send time (since push can hold message pending for extended periods when there's no net connection)
+- receipt time (since it's usually different from both above eg. the SMS provider hold delivery pending)
+
+In my daily experience this information is necessary to be able to know what happened (post mortem), and can help preventing heated debates about when the message was written, sent or received. :-)
+
+
+related #2055
+
+
+Not sure if this is the right issue, because it's about showing a time. The code for showing a double check mark seems to be there. Commenting out three lines shows the icon. (See: SmsSendJob.java:139 )
+
+Though I guess for a proper implementation a preference options should be created.
+
+Is there a conclusion on the security aspects mentioned in #2255?
+Would it be enough to warn the user of the possibility the SMS delivery report could be forged?
+How is #2055 related?
+
+
++1 Any news to this?
+Stock messaging app provides confirmation times, but since outgoing messages are not listed there when Signal is the standard messaging app, that doesn't help.
+
+The forgery argument is moot. AFAIK, the entire SMS protocol is forgeable, including authenticity, content, sent time, delivery status, delivery time. If we decide to use it nevertheless (and we might want to warn the user about the risk), there's no reason to conceal SMS delivery times.
+
+Please, provide delivery confirmation times within Signal.
+
+
+@GfEW Please don't post things like ""+1"" in issues, it'll only make us less likely to work on it.
+
+
+Thanks, got it. Main point is about forgery. I'll omit the '+1' primer in the future.
+
+
+@moxie0 Without the intention of lessening the probability of anyone's working on this issue, would it be possible to actually record and show all the time data Signal was made to be aware of? At least the receive time of a delivery report is pretty obvious, and it's handled by the code putting the second tick on the messages, so it seems to be only a question to store it in the database, and show it when asked. (I don't have the possible content of the delivery report handy so I cannot tell whether it contains the real delivery time, too. If it would do then it should be recorded, too.)
+
+
+
+I hope asking about biannually isn't too rapid, considering the complexity of the problem, which is probably close to ""trivial"", and the age of the issue, which is almost 3 years now. (And I accept the blame for not taking the time to familiarise with java and doing it by myself.)
+
+
+
++1
+
++1, I'm really surprised that signal is missing sth so simple and yet so useful as plain text message delivery notifications :(
+
+please add it :)
+
+GitHub Issue Cleanup:
+See #7598 for more information."
+25,Signal ,276,Saving Attachments - where do they go?,"This is hopefully a daft question, but I can't find the answer anywhere.
+
+I've received a nice picture via MMS into TextSecure 0.9.9.7. It looks okay in the message thread, and clicking it gives me the warning about needing to decrypt it, but then it loads perfectly into my image viewer. If I tap+hold the image, I'm then warned about needing to decrypt it to put it on the external SD card, it then takes maybe half a second while it says ""Saving attachment..."", and then ""Success"" flashes up. Despite all of this, I can't find the attachment anywhere on my phone :-( (I've used ES File Explorer to search for various filenames, but to no avail).
+
+I had a look in the source code; it looks like it's saving to Environment.getExternalStorageDirectory(), but none of the obvious locations seem to have the picture in them.
+
+Any idea where attachments end up?
+
+(If it matters, I'm using a Samsung Galaxy S2 GT-I9100 running Jellybean 4.1.2).",5,"
+
+Does anyone have an answer for this? It's sort of an important feature to download images from your text messaging app!
+
+
+After mounting my Nexus One as a USB storage device my saved TextSecure attachments showed up in /Pictures. The files names of the images are formatted as such: textsecure-xxxxxxxxxx.attach where x's are integers.
+
+Some newer Android devices have done away with emulating a USB drive (Nexus 4 & 7) and instead want to communicate by Media Transfer Protocol. Depending on what you're using for an MTP client you may only see a smaller subset of the actual files and directories available on your SD card. When mounting my Nexus 7 on Chrubuntu I do get access to the /Pictures directory, however because it's a tablet I can't verify that TextSecure attachments also show up there like they do on my primitive Nexus One.
+
+Please let me know if the above works for you :)
+
+
+Ah ha! On my Galaxy S2, they do indeed end up in sdcard/Pictures (alongside things like the Download and Music directories on the internal Flash). The thing is that they are saved as you say as ""textsecure-xxxx.attach"", which means that nothing realises they're images (or other file types, I guess). I used ES File Explorer to batch rename the .attach files to .jpg and they're all there and working.
+
+Since TextSecure knows the attachments are images (because it's able to render them in the message), is there a way it could save them as .attach.jpg or something?
+
+
+73b1e3f3d4db4ed390d4a0fee85c936603ea17cd
+
+
+Thanks @rhodey ... downloading ES File Viewer and mounting my Galaxy Note2 through USB worked for me! The textSecure pics were in their own prenamed folder 'Pictures'."
+26,Signal ,5555,Partial message copying feature request,"Copying partial text from a message would be nice. I.e. when receiving long validation tokens/one-time passwords to be entered in some web form.
+
+See #2845",6,"
+
+I agree that this would be an awesome feature.
+
+
+It is nice Signal allows to take an action on a phone number (if it is recognised, though), but copying part of the message would still be great.
+
+This is the single biggest draw AWAY from Signal for me. Someone texts me an address or email, and I can't easily copy it? Irritating.
+
+@joelbarker2011 Do you have an example of an app that you feel does this well? Hangouts, Messenger, and WhatsApp all work the same way as far as I can see. Is there are UX interaction that I'm missing?
+
+I just checked my old text messaging app (Android default) and Google
+Voice: neither allows partial message copying (to my great surprise). Both
+(like Signal) allow tapping a phone number/email address/web address to
+call/email/browse.
+
+This would still be a neat feature, but I withdraw my implied criticism.
+(Thanks for calling me out.)
+
+Joel
+
+Via phone
+
+On Feb 11, 2017 9:10 PM, ""Moxie Marlinspike"" <notifications@github.com>
+wrote:
+
+> @joelbarker2011 <https://github.com/joelbarker2011> Do you have an
+> example of an app that you feel does this well? Hangouts, Messenger, and
+> WhatsApp all work the same way as far as I can see. Is there are UX
+> interaction that I'm missing?
+>
+> ‚Äî
+> You are receiving this because you were mentioned.
+> Reply to this email directly, view it on GitHub
+> <https://github.com/WhisperSystems/Signal-Android/issues/5555#issuecomment-279197418>,
+> or mute the thread
+> <https://github.com/notifications/unsubscribe-auth/AA_-Zc6PqWpezk6Q9NZAb4xvNmQAtrQuks5rbpRZgaJpZM4I_FiZ>
+> .
+>
+
+
+GitHub Issue Cleanup:
+See #7598 for more information."
+27,Signal ,5874,Allow saving multiple images in a conversation,"I have:
+
+- [x] searched open and closed issues for duplicates
+
+- [x] read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports
+
+
+
+----------------------------------------
+
+
+
+### Feature Request
+
+There was #5088 asking for multi-selecting images in ""All images"" and then saving them. It was closed without actually having multi-select & save implemented.
+
+I am asking for multi-select images in a conversation and then save them.
+
+
+
+### Steps to reproduce
+
+- go to a conversation
+
+- long press a picture message
+
+- tap a second/third/... picture message
+
+
+
+**Actual result:** No save button is shown.
+
+**Expected result:** A save button should be shown and allow to save the selected images.",3,"
+
+when this feature will be deployed?
+
+Please [don't bump issues](https://github.com/WhisperSystems/Signal-Android/blob/master/CONTRIBUTING.md#dont-bump-issues)! To vote for an issue, feature or PR you can add a positive reaction (e.g. :+1:) to the initial comment.
+
+GitHub Issue Cleanup:
+See #7598 for more information."
+28,Signal ,604,Number registration (for push messaging) doesn't work with Google Voice,"The new push based TextSecure doesn't seem to like using Google Voice numbers (which are then forwarded to my phone's real number via SMS).
+- Although there are of course privacy downsides associated with letting Google see all of your incoming/outgoing SMS data, there are also serious privacy harms associated with letting people know your actual phone number, rather than a number that will just forward texts to you*
+
+The first step of the TextSecure number registration process (""Connecting"") works fine. An incoming text message with the verification code is received by the default Android SMS app, but TextSecure doesn't catch it.
+
+Thankfully, after 2 minutes of waiting, I am given the opportunity verify by voice, which does work.",19,"
+
+If you're on CM, voice+ works, but...yes, this should be fixed outside of requiring CM.
+
+
+I can confirm that TS does not currently work with Google Voice on my Samsung Galaxy S4 on Verizon. Would love to see this implemented.
+
+
+I can confirm that Google Voice registration does not work on my Samsung Galaxy S4 (Verizon).
+
+
+The FAQ says it works if you wait for the timeout and try voice activation:
+http://support.whispersystems.org/customer/portal/articles/1468990-how-can-i-get-textsecure-working-with-my-google-voice-number-
+Does this work for you? Maybe we should inform users that they should use voice registration with google voice.
+Do you know if there is a simple way to filter numbers and automatically do voice activation if somebody enters a google voice number. Does Google have a fixed address space or something?
+
+Edit: looks like there is no publicly known list/address space for GV: http://www.crimetime.com/identification-of-google-voice-numbers.htm
+So we're probably down to showing people the voice option from the beginning, with the information that SMS will not work with all GV.
+
+
+Yeah, I waited for the timeout and requested a voice call but it never came. Bummer.
+
+Ninja edit: The call does come sometimes but TextSecure displays a ""Network Error"" message when I try to verify.
+
+
+I use an Android device with no cellular data service, and I use Google Voice for SMS (via Google Voice over wifi) to other mobiles while using it.  When installing TextSecure, I had to verify my Google Voice number with a phone call (which I answered on one of my other phones - Google Voice forwards to them all) after waiting for 2 minutes - even though the SMS came to the device on which I was installing TextSecure via Google Voice!
+
+For Android, at any rate, I imagine maybe one could detect the presence of Google Voice (and then maybe intercept inbound texts from it, since they're not true SMS). But probably the least-work option here is to have the user select voice or sms auth, and be able to abort the 2-minute countdown if they selected sms auth, which takes them back to the select dialog.
+
+
+This is still an ongoing issue and pretty annoying. 
+You're sending a 6-number code via text, and I receive it, so let me manually input it, like most other messaging apps do.
+
+
+That would be an easy workaround. ""Having problems? Input the code manually""
+
+
+Just to put it on the radar, it's less and less just a Google Voice phenomenon. There are an increasing number of MVNOs offering easy SIP numbers and special texting apps:
+- http://www.touch.com/
+- http://www.freedompop.com/
+
+These companies mainly offer their own devices, but let you show up with your own device, which may be wifi only.
+
+Also, not to mention [Hushed app](http://hushed.com/), which isn't an MVNO, but allows wifi-only devices to act as phones.
+
+
+this is working for me now on Nexus 5 w/ stock Lollipop 5.1 & TextSecure 2.10.2. anyone still experiencing this issue and on what device, build, etc?
+
+
+- Do I need to reinstall to find out?
+- Has work gone into fixing this? IIRC, last I registered, the app told me Google Voice wouldn't work.
+
+
+@gordon-morehouse when registering, enter your google voice number-- you should receive an SMS verification code, if that does not arrive you will receive a phone call where the code will be read to you. I've been using a google voice number on my test device for months, let me know if this doesn't work for registration and I will reopen.
+
+
+Zero offense intended, but that didn't really answer either of my questions.
+
+I don't see any way to re-register in the app UI. I would like to test this, but not at the expense of blowing away my key, my history, etc. I am already using TextSecure registered to my carrier number on my only device, because it refused to work with Google Voice.
+
+This is quite an old version of Android (2.3.4). If it's not worth testing on such an old version, I'd rather not go through the pain of reinstalling to test until I next wipe the device.
+
+
+thanks for the clarification, sorry I didn't understand your original post. you can re-register with a different number by going to **Settings > Advanced > TextSecure messages**, toggle this option and your current number will be unregistered then you will be prompted again to register with a different number.
+
+
+This will mess up your existing sessions if you change your number, though.
+
+
+Why isn't there an option to manually enter the text verification code, for users of Google Voice? It seems unnecessary to have to wait 2 minutes to enter a code that you already received immediately.
+
+
+I have the same issues, cant register with google voice.  I get the reg code via sms but the signal app doesnt pick it up.
+
+With the call option im not getting a call.
+
+
+@moxie0 Couldn't you export your ""chat"", change your number, and import the ""chat""? Would that work?
+
+
+Having the same issue with Google Fi phone. Tried the verification via SMS message, and then also the voice verification. SMS times out and even when I get the voice call/code when I input it I get ""Network error!"""
+29,Signal ,801,Feature request: Mute Group (or any user),"Sometimes friends in a group are discussing something I'm not interested in and my phone would go nuts vibrating and ringing all the time. A ""Mute for X minutes/hours"" feature would be awesome.",9,"
+
++1
+
+
+Maybe this could be included in #757 as an additional entry in the proposed notifications settings menu for every chat.
+
+
+I want to +1 too!
+
+
+We totally need this!
+
+
+Yes, please! :)
+
+
+Please enable silencing specified chats (Groupchats, Singlechats)
+
+
+Please! This shouldn't be hard to implement and my friends can be very talkative sometimes ^^""
+Also, they want this to switch from WA to TS
+
+
++1
+
+
++1"
+30,Signal ,6069,Unread notification badges do not work on Huawei EMUI,"I have:
+
+- [x] searched open and closed issues for duplicates
+
+- [x] read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports
+
+
+
+----------------------------------------
+
+
+
+### Bug description
+
+I've installed Signal on a Honor 8 (made by Huawei) with EMUI 4.1 (Android 6.0). I've noticed that Signal receives notifications on new messages and they are also listed in the notification area, but the unread notifications badge on the app icon on the home screen is not shown.
+
+In Signal support articles there is mentioned, that badge icons are supported for some launchers, see [https://support.whispersystems.org/hc/en-us/articles/215766077-How-can-I-see-my-unread-badge-count-What-launcher-should-I-use-](url)
+
+So far I could not find out if this is a Signal or EMUI problem, but Threema and Conversations show the notification badges.
+
+
+
+### Device info
+
+<!-- replace the examples with your info -->
+
+**Device:** Honor 8
+
+**Android version:** 6.0
+
+**Signal version:** 3.26.2",2,"
+
+Sounds related, but unsure: Another user is reporting the same issue on with badge notifications not showing for Signal on a different device.
+
+
+
+Device: LG V20 with Nova launcher
+
+Android: rooted stock 7.0 (Build NRD90M, Software H91810d)
+
+
+
+This user's work around is to use nova launcher with the app notifyer to create a widget icon that displays the badge notification
+
+in 3.28.0"
+31,Signal ,2943,Where are the old text-only smileys?,"Why did you remove the old text based smileys?
+I don't like all this emoji crap and preferred the other ones.",11,"
+
+You can still typically use your keyboard's emoji pane by long-pressing the enter key, if that's where you used to access it.
+
+
+Doesn't work for me
+
+
+mcginty, would be nice, if you could read the message before answering.
+He is complaining about the missing text-based smilies, like :-( not the button!
+
+I am missing them aswell, I dislike this whole emoji stuff...
+
+
+I read the message. I was saying we didn't remove text-based smilies, they just never existed in our emoji drawer. This seems to be something that the keyboard's emoji supports, and we recently changed to prefer our emoji drawer over the system's.
+
+
+Ok, this is an better explanation and I am seeing them by long pressing the ""enter""-key.
+Is it that difficult, to add the simple smilies to ""our drawer"" as well?
+I am only using them...
+
+
+Well I remember having the choice of 'enter key' or 'old style smileys' in some menu, but that is gone now...
+
+
+> @sjaeckel wrote:
+>
+> Well I remember having the choice of 'enter key' or 'old style smileys' in some menu, but that is gone now...
+
+Yes, that was part of the change which has been mentioned by @mcginty , see the following commit:
+
+https://github.com/WhisperSystems/TextSecure/commit/2f20bb89f3b64701d047fa3af2aa8b6e0ecfdc34
+
+Regards
+
+
+this is blocked until the refactor in #3153 is complete
+
+
+@mcginty seems you've have 'forgotten' about the emoticons, as they already are in a string-array and have the category icons.
+Wonder what tho GO code will like for generating the PNG :-P
+
+
+@McLoo haven't forgotten - assets are there and I'm writing the ASCII-emoji stuff! If we're generating PNGs of ASCII emoji I'm doing it wrong :P
+
+
+awesome
+thanks!"
+32,Signal ,299,"Implement ""Quick Responses""","Android has an useful option for rejecting call with SMS. When you receive a call, you can reject it with pre-prepared or custom SMS.
+
+However, this SMS is not sent through TextSecure but through default Android application for sending SMS's.
+
+Can this be changed?",17,"
+
+This will become possible with Android 4.3.
+
+See ""Intent for handling Quick Responses"" at https://developer.android.com/about/versions/jelly-bean.html
+
+
+I've got Android 4.4 and this is not possible yet, one of the problems that bugs me the most and why I dont run it as default SMS app
+
+
+Renamed issue to ""Implement 'Quick Responses'"" since that's the feature that needs to be added. This would be a great Pull Request if somebody wants to pick it up. On our list.
+
+
+The skeleton is already in place. See: `QuickResponseService.java` in `src/org/thoughtcrime/securesms/service/QuickResponseService.java` and within `AndroidManifest.xml`:
+
+```
+<service android:name="".service.QuickResponseService""
+         android:permission=""android.permission.SEND_RESPOND_VIA_MESSAGE""
+         android:exported=""true"" >
+    <intent-filter>
+        <action android:name=""android.intent.action.RESPOND_VIA_MESSAGE"" />
+        <category android:name=""android.intent.category.DEFAULT"" />
+        <data android:scheme=""sms"" />
+        <data android:scheme=""smsto"" />
+        <data android:scheme=""mms"" />
+        <data android:scheme=""mmsto"" />
+    </intent-filter>
+</service>
+```
+
+I can take a gander at it if you'd like.
+
+
+Fair warning, it's actually a deceptively difficult change.  The code is fairly well setup for the scenario where you receive an incoming message and don't have a cached MasterSecret, but it's not clear what to do when _sending_ a message without a cached MasterSecret.  If you actually have a passphrase configured, there will be no way to send the message using a secure session, for instance.
+
+
+That's the first thing that came to my mind, too. Especially after reading the documentation that the implementing service should _not_ spawn any activity and everything has to be done in the background.
+
+
+Easiest thing to do would be to start off by supporting the case where the passphrase is cached or there's no passphrase configured.  Would at least be an improvement.
+
+
+Hi, please take a look at https://github.com/WhisperSystems/TextSecure/pull/962 and let me know what you think
+
+
+The word QuickResponse was not mentioned in this issue yet but is in the error message when trying to send one:
+
+  <string name=""QuickResponseService_sorry_quick_response_is_not_yet_supported_by_textsecure"">
+
+Adding this keyword for findability.
+
+
+Two things, this issue seems to be getting conflated with the quick reply issue. This issue however is for ""Reject Call and Send Text Reply"".
+
+@moxie0 I'm in agreement with you. Get the functionality for general users in place and then think about the implementation of the passphrase methodology. Which I'd simply suggest a popup password box proceeds the selection dialog of the quick message.
+
+But as things stand, this is functionality that's suggested by all Android phones as standard and by not having something in place, it makes TextSecure look amateurish.
+
+
+Hi,
+seems this issue still persists. What about implementing a small toast-message after someone tries to reject a call with a message that this funtionality is not supported yet because I already had some people asking me (the guy who recommended TS) what happened to their reject-messages. Or is someone already working this out?
+
+
+Ohh - I just took a look at the code and a ""not supported yes"" toast-message seems to be already implemented:
+
+Toast.makeText(this,
+getString(R.string.QuickResponseService_sorry_quick_response_is_not_yet_supported_by_textsecure),
+Toast.LENGTH_LONG).show();
+
+BUT it does not show up for me? Someone else getting that toast?
+
+
+@fajabird shows up for me. Rejecting call with text ends up in rejecting with 'not supported' toast following :)
+
+
+I'd like to see the quick reply feature working, too. Any news for us on this one?
+
+
+@merkste, unfortunately I don't see myself tackling this in the immediate future - since I don't want to uninstall TextSecure from my daily phone. When I get a secondary phone (not too long I hope, but I can't promise nothing) I'll look into this again.
+
+
+@asafh You could:
+a) Install two TextSecure versions in parallel and test with the browser extension (very buggy)
+b) Specify what needs to be done to continue your development efforts and maybe point others in the right direction
+
+
+@JavaJens what I've done and moxie's input on what needs to be done is described pretty well over PR #962. Basically, what needs to be done is trying to get the key from the key caching service directly, if it is available go ahead with sending the message, otherwise show a toast with the ""TextSecure is currently locked. Quick Response messages are disabled."" or similar. 
+
+Since the code base has already changed quite a bit, I would the code in that PR's commit as a reference. It will be easier to simply do the similar work on a new branch from main. 
+
+If you decide to tackle this, and have questions you want to consult me about - feel free to send me a message here or at [""hello"",String.fromCharCode(31*2+2)/*regex scrapper*/,""ous"","".im""].join("""")"
+33,Signal ,6390,Notify sender if Signal message has been sent but not delivered to recipient after some time,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers to get all the necessary data to fix your issue.
+
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case.
+
+
+
+Before we begin, please note that this tracker is only for issues, not questions or comments.
+
+
+
+If you are looking for support, please see our support center instead:
+
+https://support.whispersystems.org/
+
+or email support@whispersystems.org
+
+
+
+Let's begin with a checklist: replace the empty checkboxes [ ] below with checked ones [x] accordingly -->
+
+
+
+I have:
+
+- [X] searched open and closed issues for duplicates
+
+- [X] read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports
+
+
+
+----------------------------------------
+
+
+
+### Bug description
+
+Recipients who are registered for Signal may not be able to receive secure signal messages due to reasons such as:
+
+- temporary unavailability of internet access (e.g. prepay plans with hard data caps; otherwise intermittent data connectivity)
+
+- permanent unavailability having uninstalled Signal without first unregistering
+
+
+
+Neither of these are apparent to the sender, and sending a Signal message results in the message sitting on the server for some undefined length of time. The sender does not get notified that while their message has been sent to the server, it has not been delivered to the recipient, leading to frustration once the fact is discovered ( #6377, https://github.com/WhisperSystems/Signal-Android/issues/2285#issuecomment-218601632 etc). The status is available in conversation UI in the form of one tick vs two ticks, but this requires the sender to explicitly check back in the conversation UI.
+
+
+
+It would improve the user experience if a signal message that was sent but not delivered after some timeout (minutes?) triggered a ""lack of delivery"" notification on the senders phone along the lines of ""Your secure message to YYY could not be delivered after N minutes. Would you like to resend via insecure SMS?"" This way it is up to the user to explicitly fall back to the less secure protocol.
+
+
+
+(This notification proposal is orthogonal to but complementary to the ability of Signal to better remember the per-contact preference of transport channel suggested in #2285, https://github.com/WhisperSystems/Signal-Android/issues/845#issuecomment-134381412 etc. It would also serve as an easier to implement and more secure alternative to automatically falling back to SMS as suggested in #678, #2847, #3074, #4009, #5001)",2,"
+
+I agree, but it shouldn't be minutes, but rather days or weeks.
+
+GitHub Issue Cleanup:
+See #7598 for more information."
+34,Signal ,7345,Better Media Saving Behavior,"I have:
+
+- [x] searched open and closed issues for duplicates
+
+- [x] read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports
+
+
+
+----------------------------------------
+
+
+
+### Bug description
+
+One of the features that was missing for a long time but thankfully has been recently implemented was the ability to swipe through the images without having to keep going back to the index and always having it start at the top. Kudos and thanks for that.
+
+
+
+However, another element exists that can be greatly improved and probably just got missed; and hopefully can be added. Currently each picture (""media"") provides you the save button on the top. However, it never detects that the item has already been saved and you have to just remember it or go check your on device gallery to see if it is already there. Instead, it simply keeps making duplicates of the item and just incrementing it. It would't be too difficult to do a simple if/exists > show view/share icon else/doesn't > show save icon (as it is now). This will spare the need to save multiple duplicates and incrementing it when you can simply provide a visual check that it has already been saved. It is simply better UX and cleaner that way.
+
+
+
+### Steps to reproduce
+
+- save an item
+
+- save it again
+
+- you have a duplicate with a -1 at the end
+
+- save it again
+
+- you now have 3 with a -1 and -2 of the same item
+
+- repeat and goes on as long as you keep saving
+
+
+
+**Expected result:** Detect that the item has already been saved and either provide a view icon or share icon to visually indicate it has been saved already, otherwise show the save button. A simple file system check for the item will facilitate this.
+
+
+
+Thanks in advance.",4,"
+
+I think the current approach is safer because Signal save the media to the common android directory and there's a probability other application will save a different file with the same name.
+
+
+
+There is a potential to add extra validation (in addition to file system exists() check) before disabling the save button (maybe comparing the file checksum?). But wouldn't this too much work for the device to just toggle the save button?
+
+@nribeka Given that the filename used by Signal to save is rather unique, I highly doubt it will ever encounter another app saving with the filename beginning with the word Signal and the exact date/time hash that follows. That being said, checking the file by doing a size/name hash is not that labor intensive or beyond the capability of the app, given that nearly every app out there performing the same function can pull it off without issue, it is not outside the capability of the Signal team, just perhaps their motivation.
+
+Other apps might've edited that file and saved it with the same name, e.g. when you edit a saved image with your image editor.
+
+
+
+I think you shouldn't toggle the save button off.
+
+My suggestion is,
+
+
+
+upon tapping on save button, if the filename exists, calculate the checksum, 
+
+&nbsp;&nbsp;&nbsp;&nbsp;if the checksum matches > prompt user ""File already there, do you want to save another copy?"" 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;answering ""Yes"" will save a copy as it does now. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;""No"" will do nothing 
+
+&nbsp;&nbsp;&nbsp;&nbsp;else > save as you do currently.
+
+
+
+planning on getting involved in the project. Might make a pr soon.
+
+GitHub Issue Cleanup:
+See #7598 for more information."
+35,Signal ,6077,Update libphonenumber to >=8.2.0 (Cannot send SMS to my mobile provider),"I have:
+
+- [X] searched open and closed issues for duplicates
+
+- [X] read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports
+
+
+
+----------------------------------------
+
+
+
+### Bug description
+
+My friend made me aware of this as I'm never checking my account status via SMS, but it doesn't work for me neither. To check our account status, we have to send an SMS message to 13977, but Signal fails to deliver it. I tried sending it through the native Oneplus SMS app and it goes through just fine, with an immediate response. I can send an SMS to other people, though, so it has something to do with that number. (Signal adds +385 to it for Croatia, maybe that's it?)
+
+
+
+### Steps to reproduce
+
+- send an SMS to my provider through Signal
+
+
+
+**Actual result:** it doesn't go through, ""Failed to send"", ""Some issues need your attention.""
+
+**Expected result:** Message should go through and I should get a response.
+
+
+
+### Device info
+
+**Device:** OnePlus3T
+
+**Android version:** 7.0
+
+**Signal version:** 3.27.1
+
+
+
+### Link to debug log
+
+https://gist.github.com/anonymous/f656572561ea3a91d0f4bbdeb98e587b",12,"
+
+On some phones there is a setting to enable sending messages to Short codes or short numbers.
+
+You will need to allow sending ""Premium SMS"".
+
+Go to Settings > Apps > Signal > scroll to the permissions section > tap on the down arrow for the section ""Send premium SMS"" and choose 'Ask' or 'Always allow'
+
+Once I saw the Premium SMS setting in my App permission menu, I was sure that was it. But Signal wasn't on that list. I see all the other applications that have SMS capabilities there (Google Messenger, OnePlus Messenger and Facebook Messenger), but not Signal. When I first sent my short numbered SMS, they specifically asked for permission to send, Signal doesn't, it just fails. (I didn't put two and two together that this is a special permission, I figured they were asking general SMS privileges since I just switched to them)
+
+
+
+Under Apps > Signal > Permissions there's no mention of Premium SMS, only if I go through general app permissions as stated above.
+
+Checked with my friend, he has Signal listed under Premium SMS, but it already was on Always Allow. He also had to go through general settings, there's no Premium SMS under Signal > permissions
+
+Can anyone with a better understanding of code check if this https://github.com/googlei18n/libphonenumber/blob/master/resources/ShortNumberMetadata.xml#L4982 allows for 13977 as a shortcode number in Croatia?
+
+@kpuljek 13977 doesn't match that regular expression. I think that regular expression will allow the following numbers only:
+
+112
+
+118
+
+116000
+
+116006
+
+116117
+
+116111
+
+116123
+
+1987
+
+192
+
+193
+
+194
+
+195
+
+93
+
+94
+
+
+
+I hope I don't miss any number.
+
+Thats how it looked to me, but I'm a noob when it comes to regex. Thanks!  And if it is so, then that's the issue here. My provider Bonbon uses 13977 to check account balance and status.
+
+I think you need to create into libphonenumber then since this seems to be related to how libphonenumber parse your number and then signal need to up the dependency for the libphonenumber.
+
+The libphonenumber issue was fixed and closed! Will it be automatically included in the next version of Signal?
+
+No, it has to be manually updated to libsignal-service and here. I added that to the subject.
+
+The reference for norway doesn't exist anymore. Therefore signal  now decided that norway can only have 3, 4 and 6 digit shortcodes, but not 5 all of a sudden. Even though the online resources say 3-5(3 being emergency).
+
+
+
+Unless you save it as a contact first, then it's fine and you cxan send/recive like before the last update.
+
+Thanks for the quick response, but I would hardly call this a feature. Maybe it's just an internal thing I don't know about, but feature sounds a lot less important than bug.
+
+libphonenumber has been updated to v8.3.0 in Signal-Android 3.30.0, see https://github.com/WhisperSystems/libsignal-service-java/commit/f5b94210fc6f2b9f1b8357d53ec6e83154eed3d2 and https://github.com/WhisperSystems/Signal-Android/commit/1669731329bcc32c84e33035a67a2fc22444c24b"
+36,Signal ,751,Adapt theme to light conditions,"Under low light conditions the light design is too bright and puts a strain on the eyes. Thus, a nice thing to have would be an option to switch between light and dark theme automagically using the light sensor.
+
+| Theme |  |
+| :-- | :-: |
+| light theme | ( ) |
+| dark theme | ( ) |
+| depending on light condition | (o) |",5,"
+
+That would be cool.  A transition theme, one capable to adapt to Low-Mid-High/direct, indirect Light. All with lute impact on the system resources.
+
+That alone would be a great achievement on its own.
+
+The Dark Theme is your friend. ;-)
+
+
+Yes! Hello SMS on Google Play has this feature and it works very well. Hopefully Textsecure will have this feature in the future because it's my favorite SMS app. ‚úâ
+
+
+I would like to add here that using the dark theme, I cannot see the date and time in daylight because the font is not bright enough.
+This is especially troubling for persons > 50 years of age - hardly ever can they read the date and time of sent/received messages, even indoors!
+
+
+Yes please! This would be so useful, I currently keep swapping between light and dark theme
+
+
+GitHub Issue Cleanup:
+See #7598 for more information."
+37,Signal ,1363,Indicating in the conservation overview whether the last message is yours or from your conversation partner,Description given.,7,"
+
+I feel that this doesn't add valuable information - as long as I am aware of unread messages (by the bold font), this seems unneccessary to me.
+To me this would overly clutter the interface of the conversation overview. ~~I am also not aware of any big messenger doing it. And they spend millions on UI/UX experts.~~ I obviously don't use enough messengers.
+
+
+I just checked Hangouts, Facebook messenger and kik messenger, and they all indicate whether the latest message in a conversation was incoming or outgoing in their conversation overview.
+
+
+WhatsApp, Threema and Telegram, too. Although this more or less involuntarily comes from the ""has my contact received / seen my message"" icon displayed in every thread (which looks differently if the last message was an incoming one). I actually had a look at this, but it's at least not trivial to get that information in the ConversationListView...
+
+
+I think it would be nice since it is common in other messangers but it isn't a very high priority feature.
+
+
+this has been solved here https://github.com/WhisperSystems/Signal-Android/commit/7c95adc7e61e8157a686caa19ac8b6c8cf593eae right?
+
+
+Closed too hastily. I'm not sure if it's planned to add ""You"" or contact names in the conversation list? Or is the current situation good enough?
+
+
+I think it's good as is"
+38,Signal ,222,Feature: Blocking,"Blocking by user-specified phone number, via something like an email filter rule where the messages from the number are deleted upon receipt and no notification is given.",23,"
+
+ I  like it +1
+
+
+With the new data channel and groups this becomes even more interesting. We may not kick somebody from a group (#828), but we can ignore them (not show their messages) just fine. Or we mute the user/group for however long we like (#801)
+
+
+:+1: I desperately need this. Cyanogenmod contacts has a blacklist that will ignore texts. But it only works with the default text messaging application.
+
+Unfortunately many people are harassed through text messages, and losing the ability to block numbers can be a deal breaker.
+
+
+Just to register interest in this feature request, a friend of mine is unable to use this app due to the text message harassment they receive.
+
+
+I also believe that the app should be allowed to block individual numbers.
+
+
++1
+
+
+Hi,
+
+I have a friend I don't want to receive anymore of her so many sms.
+
+Any progress or planning on this issue ?
+
+Thank you.
+
+PM from France
+
+
+There is a discussion going on about per-recipient notifications. These will in the long run also include the possibility to completely blacklist people.
+
+
+I receive too many spam sms. Would really like this blacklist feature. Thanks!
+
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+I offer 0.015 BTC to anyone who first implements blacklist of senders in TextSecure Android application. Bonus 0.015 BTC if it will be able to move SMS from regexp matching numbers (except white-listed ones) to trash, without notification.
+
+If you want to claim the bounty you MUST contact me BEFORE releasing any code.
+This offer ends 1 January 2015 at 00:00. Or any other day which will be announced at least two weeks in advance.
+I sign this message with my PGP key, so my reputation will go down in case I break the promise.
+
+I know, it's not lot of money but I hope someone will join me and pledge too.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iF4EAREIAAYFAlPsumkACgkQPoLc2+pqnJQy4AD/cAjK2WrB7A5F7E+oZ7hQHIST
+yzWqePzo12MekmEoe+4A/A7eNHE1qZ6qheyopCRWC2HZW/dWt02KeMEgRJAzHD80
+=uln4
+-----END PGP SIGNATURE-----
+
+
+Too late - there is basically already a pull request for this. ;) #1815 - does not include ""blocking"" per se so far, but that's only a small step then. ;)
+
+
+Well, better than nothing but it still doesn't do what I need: get rid of spam from operator. (I know that in perfect world I could tell my operator not to send one or switch operator but this is not perfect world)
+
+
+It will do. One of the features I suspect will be implemented on top of this (if it gets in) is completely blocking someone.
+
+
+Great, will it support regexps?
+In my case numbers are often random but always 3 digit. But there are also (I think three) legit three digit numbers I'm aware of. That's why I need also white-list and/or trash: it will allow me to review messages later just in case.
+
+It looks like I'll tip you once it's out. :)
+
+
+Why don't you use one of these?
+https://play.google.com/store/apps/details?id=com.smsBlocker&hl=de
+https://play.google.com/store/apps/details?id=com.Guardam.JunkFirewall
+https://play.google.com/store/search?q=sms+blacklist&so=1&c=apps
+
+I dont think a regex fitler is really fitting in the concept of TextSecure as beeing a simple messaging app. See https://github.com/WhisperSystems/TextSecure/blob/master/contributing.md
+
+
+I don't trust them (mostly because of closed source nature) and I doubt they work with TextSecure.
+Yeah, regex filter is too huge feature. But I'm wondering how to block almost 1000 numbers conveniently. Maybe generate list of numbers and import it somehow?
+
+
+There are some apps which don't have internet permission.
+
+Another solution might be Cyanogenmod. It has a blocking feature included, you can't use regex there but something like `.*123.*` is allowed,
+
+I would't like to have a blocking feature in TextSecure like @tinloaf proposed, but I think blocking single contacts is enough. Everything more complex is too complicated for the average user.
+
+
+Don't mistake average users for dumb users. Lack of features doesn't mean simplicity.
+Simplicity: I don't have to bother setting up unneeded stuff. It just works.
+Lack of features: I'm bothered with spam and it's complicated to get rid of it (best case: I need to install suspicious third party app; worst case: I need to root my phone and program something)
+
+You see the difference? Even something like GMail is simple but doesn't lack features.
+
+
+Any ETA on a beta I could test?
+
+
+Completely agree with Kixunil on simplicity and usability.
+
+Also I don't think implementing regex will be difficult, as regex is kinda inbuilt into any modern programming language.
+
+A spam box is a necessary feature, and regex rules is a good feature to have.
+
+Is this not being done because of lack of programmers, or because of lack of testing? If it's a programming resource related issue I can help. I can code and I have interest in this feature.
+
+
+hirak99, we'd love it if you could help. It looks like a patch has already been submitted above, but I don't think it has been merged yet.
+
+
+This is a much needed feature. As it has been mentioned already the CyanogenMod text app has this feature and it is the main reason why I switched to CM the first place. TextSecure is not practical in countries with a high spam MMS/SMS volume.
+
+
+I realy would appreciate this feature as spam by sms from unknown numbers is getting more often in the last month. Mostly containing virus links for android or something bad.
+I would like to have a white/black list including the option to block all sources not in my contacts. Optional a dedicated spam ""folder"" would be nice."
+39,Signal ,6459,Feature Request: Use Share Intent Subject When Sharing to Signal,"At the moment, sending a share Intent to Signal will include the `EXTRA_TEXT` portion of the Intent but not the `EXTRA_SUBJECT`
+
+
+
+For example, using this code from another app
+
+``` java
+
+Intent sendIntent = new Intent();
+
+sendIntent.setAction(Intent.ACTION_SEND);
+
+sendIntent.putExtra(Intent.EXTRA_SUBJECT, ""This is the intent title"");
+
+sendIntent.putExtra(Intent.EXTRA_TEXT, ""This is the intent body"");
+
+sendIntent.setType(""text/plain"");
+
+startActivity(Intent.createChooser(sendIntent, getResources().getText(R.string.send_to)));
+
+```
+
+
+
+Signal will only use the body: `""This is the intent body""` but not use the subject: `""This is the intent title""`
+
+
+
+This would make it easier to get page titles and other subjects shared from browsers and other apps that set the share Intent's EXTRA_SUBJECT",2,"
+
+Related: #5959 regarding (dis)advantages of using EXTRA_SUBJECT
+
+GitHub Issue Cleanup:
+See #7598 for more information."
+40,Signal ,3192,Image view in fullscreen,Remove the action bar in the view where you can inspect a received picture to enlarge the image.,5,"
+
+I like the action bar being optional because of the ""save"" menu item, lots of apps are doing the pattern where you tap the image once to disappear the action bar and tap again to return it, hangouts defaults to hiding the action bar and then bringing it back in on tap. I'm up for either of those.
+
+
+:+1:
+
+
+I am working on this issue.
+
+Feature is fully implemented here:
+
+https://github.com/FeuRenard/Signal-Android/tree/mpa-fullscreen_support
+
+
+
+I am going to delay opening a PR until I implemented #5934 on top. By this I want to make sure that I don't introduce changes that have to be reverted by myself later.
+
+GitHub Issue Cleanup:
+See #7598 for more information."
+41,Signal ,6457,Use single button to open attachment window.,"I have:
+
+- [X] searched open and closed issues for duplicates
+
+- [X] read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports
+
+
+
+----------------------------------------
+
+
+
+### Bug description
+
+In the conversation window, there are 3 ways to open/close the attachment window.
+
+
+
+### Steps to reproduce
+
+The paperclip will open and close the attachment window.
+
+The green down arrow (that is visible in the attachment window) will close the attachment window.
+
+The ellipses in the upper right of the conversation window have an option to open the attachment window.
+
+
+
+**Actual result:**
+
+As described above.
+
+**Expected result:**
+
+From a usability and attractiveness perspective, there should be only a single way to open and close the attachment window.
+
+
+
+### Screenshots
+
+See the [thread on Discourse Hosting](https://whispersystems.discoursehosting.net/t/conversation-window-ui-tweak/895) for screenshots and discussion of alternatives.
+
+
+
+### Device info
+
+**Device:** Moto X Pure Edition
+
+**Android version:** 6.0.0
+
+**Signal version:** 4.1.0",2,"
+
+Thanks @wayloncovil It is confusing when you start typing a message and the paperclip icon goes away. Until reading this issue I didn't know there was another way to add an attachment from the upper-right ellipsis.
+
+GitHub Issue Cleanup:
+See #7598 for more information."
+42,Signal ,6592,[Feature] Add a private PDF previewer,"It would be very useful to be able to view PDF documents without saving them unencrypted and with a viewer that is guaranteed not to connect to the Internet or do other nasty things.
+
+
+
+I understand there's the danger of bloating Signal, but I think this possibility should at least be considered.",3,"
+
+CopperheadOS has a pdf viewer which uses pdf.js in a WebView sandbox, see:
+
+
+
+https://copperhead.co/android/docs/technical_overview#pdf-viewer
+
+
+
+The latest Apache licensed version of the app is cloned here:
+
+
+
+https://github.com/paride/CopperPDF
+
+@paride this was exactly my idea. Nice one
+
+GitHub Issue Cleanup:
+See #7598 for more information."
+43,Signal ,175,Featue Request: Quick way to wipe message database,"Say for some reason you're being coerced with force to disclose your password, could you make a quick way (say a button combo + confirm dialogue) to wipe the text message database?",16,"
+
+++
+
+
+ You can with 4  button presses now.  This is not what you meant?
+
+
+4 presses of what button? Was this information contained in the wiki somewhere?
+
+
+@HadManySons I had to find this yesterday. Press and hold a conversation. In this select miss you can press the select all button in the bottom right hand corner. Then press the trash can button (bottom left)
+
+
+Oh, well yeah. I'm saying without inputting your password. Some sort of button combo you can set to wipe everything. Like how you can set a pattern unlock on the android lock screen, some sort of button combo to wipe the database without putting a password.
+
+
+Well better would be a custom wipe password so random strangers who have
+used TextSecure can't execute the wipe
+On Jul 9, 2013 6:00 PM, ""HadManySons"" notifications@github.com wrote:
+
+> Oh, well yeah. I'm saying without inputting your password. Some sort of
+> button combo you can set to wipe everything. Like how you can set a pattern
+> unlock on the android lock screen, some sort of button combo to wipe the
+> database without putting a password.
+>
+> ‚Äî
+> Reply to this email directly or view it on GitHubhttps://github.com/WhisperSystems/TextSecure/issues/175#issuecomment-20711514
+> .
+
+
+Or that, make it look like you're putting in your password and without behaving any differently, the app wipes the database
+
+
+Added the four steps shared by @DaveQB to the Wiki: https://github.com/WhisperSystems/TextSecure/wiki/Using-TextSecure
+
+Overall, I think this is a very interesting idea. What do you think of my rendition below?
+
+If the database wipe was actioned on the same passphrase entry screen as is used to unlock the database, the user would probably need two passphrases:
+First passphrase to decrypt and use the database. This is a standard feature that already exists.
+Second (and different from the first) passphrase to immediately wipe the database which could then also create a new blank database and drop the user at the standard conversation list screen. The end result would appear as if the user had no text messages. This could be the new feature added to accomplish the goal raised in this issue.
+
+
+Sounds like a brilliant idea.
+
+
+@joeykrim I'd say that your idea is the best way so far to execute the idea. Gives the user a plausible deniability ""see, I told you it was empty/blank""
+
+
+Totally empty message lists can raise suspicion, specially when crossing borders, when operators normally bomb you with messages (emergency numbers, their price list...). Why not just hide (or even wipe) encrypted messages and show un-encrypted ones.
+
+
+I'd support the solution @joeykrim proposed, but in the scenario @stefanb described, either leaving the unencrypted messages would be nice - maybe with the possibility to have a modifiable list of fake messages that will be imported to the database after the wipe - that'd be the TSA/Syria/Ukraine version.
+
+
+Following with great interest.
+
+
+Yeah, some sort pre-defined fake messages left behind after the ""wipe"" password was entered
+
+
+I'd also really like to see this feature. I think the most practical way of implementing if for plausible deniability would be to erase any secured communication while leaving the remaining messages. This way there would be no ""fake messages"" to maintain or import. Besides, if some law enforcement is trying to persuade you into giving a password, odds are they've already got your unsecured messages from your service provider.
+
+So I think the best way to implement this would be to either remove the secured messages from the database upon entry of the secondary password and continue login as normal (as well as ending any existing secure conversations) and leaving the unsecured messages in the database. Another possibility would be to give an additional option to wipe all the messages instead of just the secured ones.
+
+The thing that worries me about having a set of fake messages is the maintenance. You'd have to maintain it regularly by updating the timestamps and possibly contacts and unless you're purely using the data channel a law enforcement figure would have the meta data about the communications already and probably the unsecure messages making it difficult to say those are the only messages that were kept in your phone when they don't match up with what they got from your service provider.
+
+
+GitHub Issue Cleanup:
+See #7598 for more information."
+44,Signal ,1065,Ask for desired behaviour on first start,"Would it be possible to ask the user during the first start of the app (right before/after setting the passphrase), to specify the desired behaviour:
+- only use push
+- use SMS fallback
+- use as default SMS/MMS-App
+
+Probably even add a ""what does that mean?"" button which opens a pop-up that explains (in simple words) what every mode does.
+
+This would go a long way in making the app more friendly for the less tech-enthusiastic users and those, who don't want to crawl through the settings-menu.
+
+edit: corrected formatting.",3,"
+
+This might be related to issue #697.
+
+
+Also related to #838
+
+
+Closed. No longer a feature."
+45,Signal ,328,Feature request: Sending dummy short messages,"TextSecure could mask meaningful communication between people by occasionally sending dummy random messages to random recipients at random times:
+- Recipients would be chosen randomly between contacts that knowingly use TextSecure, so it could be recognized as such after decryption and automatically discarded by recipient.
+- ""Randomness"" should be tweaked to level-out the legitimate messages, spoiling the traffic analysis of traffic retention data, preventing to weigh connections in the deducted social network graph or guessing sleeping/activity patterns.
+
+People often have many unused messages in their monthly quota, so those could easily be used with no extra cost, or they value their privacy more than some money. Sender would need to enable this feature (opt-in) and define desired quantity (eg max 100 dummy messages per month, 2 dummy messages for every legitimate one, max 500 messages total counting legitimate and dummy ones...). The feature would need to be aware of roaming (disabled by default, optionally enable) and battery level (do not send if bellow eg. 30%).
+
+http://en.wikipedia.org/wiki/Traffic_analysis#Countermeasures
+
+Possible extensions:
+- Recipients could be able to let their peers know, that they do not want to participate in this and do not want to receive messages for whatever reason (opt-out).
+- Recipients could also be chosen randomly between other contacts (those not using TextSecure yet) to promote its use (default message) or a custom explanation by sender. Those messages would be in clear text. As this might be annoying it should be very limited (eg max 1 message to a single recipient per month, only during daytime...) to not be too intrusive spam.
+- Dummy messages could contain other peer's phone numbers (random selection from those participating in dummy messaging, not just their contacts), never to be shown to user, just to send dummy messages to, to further mask the real social network. It would be tricky to opt-out later on once your number starts circulating, so opt-outs would need to be spread this way as well and by direct reply dummy message or by defining a [TTL](http://en.wikipedia.org/wiki/Time_to_live) of each such number.",18,"
+
+I really like this idea.
+
+
++1
+great idea to thwart traffic analysis!
+With the data channel now working that's not even going to cost anything. The ability to limit this feature to the data channels is important tough.
+
+
+Even with data this is going to cost battery life and data volume for people not having unlimited data, but a restricted amount of mb per month. And if this is really going to happen, then not only the sender, but also receiver should be optional, since his battery/data plan is going to suffer, too.
+
+
+@geileszeuch I don't think making the reception of those messages optional is a viable option, as it would greatly reduce the usefulness - hardly any users ever go into the advanced settings, where this option would surely be hidden away and only a miniscule percentage of users will ever activate the random sending . Even if everybody who randomly sends also randomly receives, the userbase is simply not going to be big enough to make any significant impact.
+
+If this feature sends a few (<25) messages each day at max, the influence on battery drain and transferred data would be so miniscule on both ends that it shouldn't play a role.
+
+
+This was designed with SMS in mind, where traffic data retention makes it very easy to re-create social graphs. The same principles may apply also to data connection.
+
+To have big enough peering group the option should be enabled by default, but allowing users to opt-out or set their preferred caps (SMS, WiFi, 3G...).
+
+The real issue remaining with this is that real to dummy rato should be very high in order to hide the real social graph in enough noise, otherwise such white noise could easily be filtered out. Alternatively the peer choices shouldn't be truly random, but artificially building a stronger fake network (eg randomly weighing the random contacts initially, then choosing them based on their weight. Weights can be adjusted slowly over time and sometimes randomly introducing new peers...)
+
+It is also important that the fake network is built not only from user's own contracts, but also from contacts' contracts' ... contacts. This data could be distributed as payload of dummy messages, together with TTLs, distance (hop count for limitation) and opt-outs.
+
+Fake network's statistics (peer, hop & message count, data usage) could be shown to user to help him adjust the limits or decide to opt-out.
+
+
+You guys speak of 25 random texts a day as if it was minimal usage.
+
+I live in a EU country and my plan includes 100 outgoing texts+minutes and 200MB a month. Data is also charged in 100KB increments (so, there are about 2000 ""buckets of data"" to spend every month). It's a mighty cheap but limited plan.
+
+Not everyone in the world is on a $50+ a month everything unlimited and gigabytes of data plan. Some people pay for every single text and data connection, incoming or outgoing.  Doing this by default is a big no.
+
+
+@stefanb I like your ideas about the fake network with adjusting weights.
+But we simply can't activate this feature by default for the average user, the cost for SMS in Europe is just too high. I'd like to choose this as a default setting for highly endangered users as I explain in #838 but hide it away in the advanced settings from the W***sap people.
+Maybe we can activate a low message data/wifi only version for moderately security concious folks.
+
+@ncruces I think this should be off by default for most users. When I threw the number of 25 into the room, I was talking about instant messages, not SMS. I should have been more clear about that. And the amount of data even 100 instant message produce is miniscule.
+
+Do you mean that data is basically accounted like calls aka every minute you begin counts?
+If that's true and translates to:
+- continuous surfing, using 1MB od data costs you 10 packages of 100kB
+- 10 bursts of 1kB each with a long period of time between them only uses 10kB but you're accounted 10 packages of 100kB
+
+This would be the most atrocious data plan I have ever heard of. And it'be completely useless for smartphones, because push messages for mail notifications and similar stuff always produce short bursts of only a few kB every now and then.
+
+I have a plan with 1GB of data volume, after that it's capped to 128kbit/s but I don't get charged any more. I pay for every SMS and minute, but I don't call or text much and at 7 cent each they aren't that expensive either.
+Many people I know either have a similar plan, or a student plan with ~200-500MB data, ~200 minutes and ~200 SMS for 8-12‚Ç¨/month
+
+
+Yes @lindworm, that's what I'm saying. Some operators use 100KB, others 10KB, all do it.
+
+I pay ‚Ç¨15, but I know others on ‚Ç¨7.50 prepaid ""plans"". I see no point in paying more, regardless of being able to afford it.
+
+This is in the EU. Mobile operators around the world have the craziest billing rules. Users must be in charge over these things.
+
+
+I too am in EU and pay each SMS,call, and kB individually, because i still have a very old, cheap pay-as-you-go plan. However newer plans in recent years include 1000s of SMSes, that (IMO) cannot possibly be used manually (people take it for various reasons - subsidized phones, included data or minutes...).
+
+Having this preference as part of a setup wizard #838 is also fine, as long as wizard complexity won't deter users from setting up the app.
+
+
+@stefanb I want to accomplish the opposite of what people appear to associate with setup wizards. That's why I just changed the headline. I just want to ask the user if he wants:
+- high convinience + high security
+- medium convenience + very high security
+- low convinience + paranoid security
+
+Depending on the user choice, we'll activate a bunch of more complex features.
+This one would be a prime example.
+
+
+Small comment how to increase battery live time. In EU some of operators get an agreement with google and other app developments to use background data traffic no more than once in a half an hour, even google advertisements are cached to do this. And yes, feature should be tunable and in default off (who needs paranoid security knows how to enable it).
+
+
+This is one of the ideas that sounds great first but can turn out into a very bad thing pretty quickly... at least when implemented on top of the SMS transport. I am not even talking about costs here.
+
+Let's see:
+- This kind of feature mostly makes sense to protect users from their own state/government/regime.
+- In such a scenario the mobile communications infrastructure is very likely to be controlled and monitored by ""the enemy"".
+- In order to mask meaningful traffic, you would need to send a lot of fake messages. Maybe something like 10 times the normal amount. If you don't do this then it is way too easy to check all recipients for plausibility manually.
+- The ""random"" contacts cannot be very random. After all you are more likely to text people near you and not some hundreds or thousands of miles away. If in doubt, ""the enemy"" would just pick the closest ones first and most likely find at least some of your real contacts.
+- Finding random unknown TextSecure users that live near you (= plausible communication) is not possible because mobile numbers are not bound to locations.
+- Faking communication with random users could also put those users in danger. Imagine someone being monitored and seen to be texting a low with some random contact. Surely that random contact will be monitored as well now and he couldn't even know why.
+
+Things are a bit different for push, but at least for SMS this should not be implemented.
+
+
+Tnx, all doubts are welcome so we can discuss them before (if ever) rushing to implementation.
+
+> - The ""random"" contacts cannot be very random. After all you are more likely to text people near you and not some hundreds or thousands of miles away.
+
+How about putting nearby users in the same location bucket? Eg if users exact lat,lon is 1.234567,-9.876543, rounding it (for privacy and appropriate bucket diameter) to 1.23,-9.87, then name the bucket someHash(""1.23,-9.87""). It needs to be adjusted so that neighboring buckets are overlapping a bit and that bucket name is short enough.
+
+> - Faking communication with random users could also put those users in danger. Imagine someone being monitored and seen to be texting a low with some random contact. Surely that random contact will be monitored as well now and he couldn't even know why.
+
+Exactly. Imagine repressive regime suddenly ""having to"" keep a close eye on 10-times more individuals or risk losing the ""suspect"" in the noise of fake social graphs. It is a lottery, similar to hosting a Tor exit node.
+
+> Things are a bit different for push, but at least for SMS this should not be implemented.
+
+Is there any documentation about how the push messages are travelling? Over a central server or directly between peers? I havent seen that in [ProtocolV2 documentation](https://github.com/WhisperSystems/TextSecure/wiki/ProtocolV2).
+
+Other things to consider:
+- Overloading the networks during the time of crisis
+- Operators suddenly introducing ""fair usage policy"" also for messages, as their business model now relies on selling never used-up quantities.
+- Some sort of amplification attack crippling the communication, giving operators the legitimate excuse to block (or reduce priority of) all base46 encoded messages ([regex](http://stackoverflow.com/questions/8571501/how-to-check-whether-the-string-is-base64-encoded-or-not), #167 )
+
+
+> How about putting nearby users in the same location bucket?
+
+So TS users would send this information to a central server and it would be stored there for anyone to fetch?
+
+> Imagine repressive regime suddenly ""having to"" keep a close eye on 10-times more individuals
+
+Well, it does not mean they would drop monitoring the original user and depending on how good ""our"" technology is compared to theirs, they would probably not lose much. On the contrary, just finding any other user of a ""privacy tool"" could be a ""win"" because those tools would probably be illegal to use in such a scenario.
+
+
+@stefanb
+
+**This is horrible for SMS.**
+
+> Faking communication with random users could also put those users in danger. Imagine someone being monitored and seen to be texting a low with some random contact. Surely that random contact will be monitored as well now and he couldn't even know why.
+> Exactly. Imagine repressive regime suddenly ""having to"" keep a close eye on 10-times more individuals or risk losing the ""suspect"" in the noise of fake social graphs. It is a lottery, similar to hosting a Tor exit node.
+
+I think what he wants to say is, that they don't have a choice, as with for example bittorrent (TOR uses routers and not every client is a router) the user knows (or at least should know), that other peoples activities, if surveilled, may lead to him getting in trouble. But he can choose to use bittorrent or not.
+
+And with special privacy tools like I2P, the prosecution/police knows, that they can't just bust somebody if his computer delivered a certain message, because it may well have come from somebody else, who the user doesn't know.
+
+But the police in undemocratic countries doesn't currently know that users may get unsolicited messages from political activists and protesters.
+So they will probably just ""interrogate"" them, which would basically be our fault.
+
+Consider the current situation:
+**Only people who actually DO have something to hide install TS.**
+
+This would mean the state wouldn't even have to suveil all phone numbers to find activists with DPI (for SMS), they just start with one activist using TS and he'll text all the others. And they are unconnected, which means the police wouldn't even have found out about the other TS users (which probably also have something to hide)
+They would only have to bag them all and throw them into some dark hole. First because they don't know about the technology, and later because they found that, even if the people aren't connected to the original suspect, they still confess to a lot of ""crimes"" when interrogated, because they assume the police found out about their political activities and is interrogating them because of those, not some random message they don't even know they even received.
+And TS would pretty quickly be called a spy tool by the opposition, meaning that nobody will use it anymore.
+
+> How about putting nearby users in the same location bucket?
+> Then we would have a database on the server connecting phone numbers to TextSecure users.
+> That would mean not only the local cellphone provider and state could know who uses this ""subversive tool"" via DPI, but everybody who may compromise the servers.
+> I don't think that's too bad, because the information is only critical for the local authorities, who can get them the old fashioned way, but we should consider it.
+
+**What happens when TS becomes popular in a region?**
+
+When we have a significant userbase (maybe 3-5%) of all users in a country with TS installed, we could then activate this feature for the ""paranoid"" users, and tell them about it. The jump in traffic would be obvious and police would pretty quickly be aware of this feature and that the people somebody texts often aren't connected to them in any way.
+
+Still, some people will get hurt, until the police understands this, but we at least minimized the effect.
+
+That there are now also lots of innocent people using TS won't mean the government doesn't put  them on a watch list, but the government probably doesn't have the resources to ""interrogate"" everybody.
+
+**For data we could probably turn it on without a problem**, because the connection to the google push servers is encrypted and widely used.
+
+For SMS however, we have to turn it off by default, until we have a big userbase.
+
+
+@monreal
+
+> >    How about putting nearby users in the same location bucket?
+>
+> So TS users would send this information to a central server and it would be stored there for anyone to fetch?
+
+Not for everyone, just between some peers until a certain degree of distance (logical as in contact hop count and geographical as within the same or nearby buckets). End-to-end encrypted as every other message.
+
+@lindworm
+Police of the most stupid regime may be unaware of the feature at most until they interrogate one of the users. This was no different to first TueCrypt users ([OTR](https://whispersystems.org/blog/simplifying-otr-deniability/) vs. [Plausible deniability](http://www.truecrypt.org/docs/plausible-deniability)) or first Tor exit node hosts.
+
+> Only people who actually DO have something to hide install TS.
+
+What about [CyanogenMod integration](https://whispersystems.org/blog/cyanogen-integration/)?
+
+> What happens when TS becomes popular in a region?
+
+Media/activists become aware of this feature and advise users (who can afford it) to enable it en masse.
+
+> For data we could probably turn it on without a problem, because the connection to the google push servers is encrypted and widely used.
+
+Then this feature is not critical for push messages at all, as Google's servers are considered trusted as long as the only official build is distributed trough their Play store ( #127 ). Data traffic  metadata retention is not that detailed to allow such analysis.
+
+
+> Only people who actually DO have something to hide install TS.
+> What about CyanogenMod integration?
+
+Good point, and it's great that this creates a bigger userbase. But still, most of CM users live in rather developed countries. CM's adoptance could help in India and Thailand, but in most African and Middle-Eastern coutries, people are happy if they can afford a smartphone in the first place.
+
+In some South American countries like Argentina it may look different, but the usage of custom ROMs is still nowhere near the US and Europe.
+
+> Media/activists become aware of this feature and advise users (who can afford it) to enable it en masse.
+
+Media won't say anything. In totalitarian countries, the media is controlled by the state and doesn't even report about big protests. See the current situation in Venezuela for example.
+
+Activists may do so, but their reach is very limited.
+
+
+GitHub Issue Cleanup:
+See #7598 for more information."
+46,Signal ,555,Not working in dual sim phone,"My friend has a dual sim Lava iris 405 and i have samsung galaxy s3. we both have installed the TextSecure when i start secure session, it sends Key exchange message and its received in my friends. After that it says Received and processed key exchange message but he is unable to send me any message, it says error sending. i know its giving problem because its a dual sim phone, text secure app is not able to send sms from particular sim and giving this error. Is dual sim phone supported by textSecure?",30,"
+
+There is also lack of the support of selecting which number should be used for sending a message. It seems it is also impossible to merge identities together and share a key for multiple phone numbers?
+
+
+Yes, you are right mitar. I have seen no possibility to this..
+
+
+related to issue #531, seems to be a general issue with any kind of context around multiple numbers on a single device
+
+
+I also have dual sim, same error not sending. No facility to select which number/sim to send from
+
+
+Multi-SIM hardware does not appear to be officially supported by Android in any way right now, unfortunately. Any work we do on this would have no guarantee of working with future releases. There is a [SO for using reflection to detect multiple SIMs](http://stackoverflow.com/questions/14517338/android-check-whether-the-phone-is-dual-sim/17499889#17499889), so it is possible to at least give a warning of issues with multi SIM devices.
+
+Does sending work in other messaging apps, but not TextSecure in particular? I'm curious to see if other apps have worked this out...
+
+
+For me it works on dual SIM to send and receive unencrypted messages from the default SIM. But I just cannot select from which SIM I want to send. I am also not sure how my identities will match to numbers.
+
+
+Yeah, Android doesn't provide any way to do that officially, and implementations of more than one SIM are manufacturer-specific, so probably wouldn't even work on all dual-sim devices when added to TextSecure. If you check out TelephonyManager, all they offer is getLine1Number() for the phone (yes, you might expect getLine2Number(), or getAllLineNumbers(), but nope).
+
+
+Maybe developers of [Fairphone](http://www.fairphone.com/) ([GitHub](https://github.com/Kwamecorp/Fairphone)) would be interesting in this? Their phone has dual sim?
+
+
+It may be most useful to star https://code.google.com/p/android/issues/detail?id=14799 and prod Google to standardize this whole thing. I don't know that another hardware-specific implementation is the right answer, even if it is open.
+
+
+It seems mitar is correct. I am having issues at the moment with one of my carrier. As soon as I changed primary carrier under dual sim settings, the message pushed thru. I was planning to attach a pic of my standard sms image but I dont think it is possible here. Basically I have 2 buttons instead of 1 for sending sms - Send1 and Send2. I hope this info would help developers
+
+
+@mcginty I have tested a few secured sms apps, of which all have no dual sim support.
+
+
+Also initialization messages should be sent from the same number they are received on.
+
+
+Most of sms applications, which support dual sim, use a system of two buttons to send the sms. But the native application of my phone does not. When I enter the application (sms or address book) the android system [itself] knows that these applications use the sim card. When I'm in one of those applications and go down the notifications bar there appears to choose the sim card. All dual sim I had (5) worked this way. Could this be a better approach?
+
+
+Same question. My phone provides dedicated buttons in the phonebook/text app per SIM card.
+
+
+Hi. Are there any news? Does anybody working on this?
+
+
+Any news?
+
+
+The news is that Android still doesn't offer API support for dual-sim devices.
+
+
+There is this branch: https://android-review.googlesource.com/#/q/topic:bcm_ds
+
+
+> The news is that Android still doesn't offer API support for dual-sim devices.
+
+@moxie0, Hangouts allows you to choose between your provider's number and your Google Voice number from a conversation (also re: #1291)
+
+
+Android just announced support for multi-SIM devices in Android 5.1 so this may become a more pressing issue
+http://officialandroid.blogspot.ca/2015/03/android-51-unwrapping-new-lollipop.html
+
+
+Thanks for the link @James-Firth! Will take a look when the new SDK is released.
+
+
+Multi-SIM support is now official, well-documented, and SDK 22 is available.
+
+I know, this is not a priority task, but if you're interested in this feature I'm willing to try spending some free weekend time, contributing. However, before doing so I would like to discuss and understand decide how it's best to structure things.
+
+The primary question is whenever each subscription identity (SIM) should be a considered a separate identity in TextSecure, or all accounts on the phone should share the same. This is important, because it defines how the data model should be modified - i.e. whenever I'll have to just add SIM card information to SmsDatabase (and propagate this data througout the app), or modifications should be more complex to the extent IdentityKeyUtil won't be static/singleton anymore, etc etc.
+
+
+Ideally we would only allow one number to be registered with TS, and leave the multi-SIM stuff as SMS-only?
+
+
+I guess it would be best to allow the user to register both numbers, but that makes it more complicated, no?
+
+
+That would be pretty complicated.  The app would need to duplicate everything per profile, with an identity switcher.  Separate thread db, separate sms db, separate address db, separate mms db, and then somehow manage notifications across them.
+
+
+I can think of 2 common usecases of multi-SIM phones:
+1. sms/data
+2. work/private
+
+For the first one I think its fine to limit the registration to one sim, but the second have to finally decide which number they want registered.
+I don't know the  status of registration without a phonenumber, but this affects the situation also.
+
+
+There's a third use case, although I guess it's rarer than two mentioned above: local/roaming. User may visit another region/country and get local SIM for cheaper calls and data, but still consider having their ""home"" SIM online. This is how I live ;) In this scenario, given that everyone knows that I just have multiple phone numbers (in my case it's non-private information), maybe one SIM could be considered as an alias to the other without necessity to duplicate databases.
+
+Either way, I guess it makes sense to keep the initial modifications small and simple and provide TextSecure functionality for single phone number (as selected at initial setup) while keeping secondary one(s) fully functional but SMS-only. Or, maybe, as an alias, if server-side would support this. This way it would be simple to have basic multi-SIM support for users who have problems using TextSecure because of lack of control over which SIM sends messages and display which SIM received one.
+
+Then, at some later time, further enhancements (possibly, even duplication of identity database) could be considered depending on user feedback.
+
+
+@drdaeman in this usecase registering the main number is enough, no? You can still use push messages while roaming using the data channel of the second card. You don't have to register that number...
+
+
+Yes, you're right.
+
+I was just thinking about contacts. For example, my old peers know me by phone number 1 (""home""), but new peers know my number 2 (""local""). So, I think, it would greatly benefit if there'd be an option for both numbers to be usable for secure communications. Don't know if this is possible to do in a secure manner, though.
+
+
+@fischerling @drdaeman I have the same dual sim setup (two national numbers)."
+47,Signal ,828,Feature Request: Group Administration,TextSecure groups lack the possibility to remove participants after they were added.,30,"
+
+Agree, would be nice to have this option
+
+
+Well groups aren't controlled by one administrator or the original creator, that's why everybody can invite new users, but you can only remove yourself from the group.
+But we can ignore certain users (by not showing their messages) just fine (#222). Or we mute the user/group for however long we like (#801). In any case, this would be a duplicate, we just have to figure out which issue it duplicates.
+
+
+Well, this makes groups almost useless. If a group is created and everyone can add more members without the possibility for the administrator to remove them, there will just be happy trolling, inviting ""friends"" for fun, messing around. That makes serious messaging in groups (i.e. for learning groups of about 10 people in university context) impossible.
+
+
+I guess that depends highly on the kind of people you interact with. I read (I think on moxies twitter), that they are about to release a detailed blog post about the group feature - so maybe we should wait until that happens and we know what is supported by the protocol and what isn't.
+Then we can talk about further changes, like administrated groups. I personally prefer the current implementation - when the issues I mentioned are integrated, you can always block/mute people you don't want to read from.
+Currently you can add new users by clicking the settings icon in the top right from the group chat -> update group -> add member.
+
+
+@LotP : We had to make group administration a distributed function, rather than having a single authority or single source of truth. That's the tradeoff for not having the server administer group membership.
+
+I would imagine that members of a group for a specific serious purpose wouldn't add members who weren't involved in that same project, but maybe you're correct.  @lindworm's suggestion of individual blocking or muting is probably the best we could do.
+
+
+@moxie0 : Maybe we could add both? The current system based on the sanity and discipline of every group member and the centralized modell? Maybe as ""Open Group"" and ""Administrated Group""?
+Because sometimes, if you don't want people to be in a group, you don't just want to mute them. You also want them not to see what's going on in the group, maybe because this person turned out to be not trustworthy (imagine that: in my university many scientific groups are organizing theirselves with WhatsApp Groups. Interns and guests are added for the time of their visits in order to keep them informed about whats going on, what has to be done and where to meet for lunch with the group. Now this intern/guest leaves the scientific group - if he can't removed from the group, he receives information he should never get, and the circle of people that are always well informed about whats going on is going to grow, making this group feature not usable for those applications).
+
+
+@LotP The only thing you can do in that case is create a new group without that person in it (or ask them to leave voluntarily).  We might be able to add centralized group management in the future, but at the moment I don't want to put us in a position where we could get subpoenas for this information from law enforcement.
+
+
+@moxie0 And would it be possible to just give everyone the permission to kick people from the group ? Because for example, today I had a problem with my export/import and I wasn't able to leave the group, so we had to create an other one because I couldn't join the existing one since my phone number was already listed, couldn't leave it as I wasn't in it anymore and they couldn't kick me.
+
+Even stranger, when They sent some messages, I was able to read them but the group was like a ghost one. I could write in the group nor could I see group member or leave the group.
+
+
+@jocelynthode
+
+> And would it be possible to just give everyone the permission to kick people from the group ?
+
+Yeah, that doesn't sound like a good idea. Do you think the trolls in @LotP's scenario would'nt kick you out of your own study group ""for fun""?
+
+
+@lindworm I don't really. You can hope that people are bit more mature than that. Anyway I'd much prefer being kicked (which everyone can reinvite you) than being forced to recreate a new group when the problem of keys happen.
+
+Though I understand that usually and if the export/import feature was working correctly it shouldn't be an issue.
+
+I still think we should add at least a warning for this export feature.
+
+
+@moxie0: it would be possible to store the group settings, including who is admin or not, locally. That would keep you safe from subpoenas because you don't have that information and still alows for group management by admins.
+
+It would not protect against someone who modified the TS source to make himself admin, but that's a lot less likely attack for trolls than simply not unsubscribing.
+
+
+Experiencing a difficult scenario right now which apparently hasn't been taken into account, where this design decision is a real problem.
+Basically, there's a group where a few people discussed some sensitive stuff. One member, it turns out, did not protect their data with any password, and then their phone got stolen. The group's entire contents and membership are now possibly out there and accessible to potential attackers.
+Granted, everyone should have had a password before using the app for sensitive communications, but passwords are currently optional, some people are not security-conscious, and here we are. Being able to remove our friend's account from the group would save all of the participants a lot of worry and possibly real trouble.
+
+
+**edit: I've since changed my mind about this solution. Updates further down the thread.**
+
+> It's a bit awkward technically, but here's one possible solution. It's essentially a UI for people to re-create a group without a person, preserving history.
+>
+> **Scenario:** There's a group with 4 people, p1-p4. p1 wants to kick p4.
+>
+> **UX:**
+> - p1 goes to administer the group and chooses 'kick p4'.
+> - p2 and p3 receive prompts saying `p1 started a vote to kick p4. A kick vote must be unanimous. This vote is not visible to p4. [KICK / CANCEL]`
+> - if either p2 or p3 decline, the conversation continues as normal, with no record of the kick vote. If it succeeds
+>   - p1, p2, and p3's screens show a line about p4 being kicked (same style as when a person is added)
+>   - p4 sees p1, p2, and p3 leave the group.
+>
+> **Technical:**
+> - When p1 sends the request, a new group is created containing p1, p2, and p3. Like the original messages used to sync android and desktop, it's not visible, only used by the client to trigger the kick confirmation message.
+> - If someone declines the vote, everyone leaves the new group. The person who declined does not leave until every other client has either left or voted not to kick (since that might happen async).
+> - If the vote succeeds, p1, p2, and p3 leave the old group, and their clients import the old group's history and metadata into the new group.
+> - p1, p2, and p3 are able to start a new vote to kick (even another vote to kick p4) while the previous vote is active. No way to stop that.
+>   - If they do so, their client will first send a decline vote to the existing group, and will not initiate the new vote until the previous one is dissolved (this is why the client that declines must be the last to leave)
+>     - Optional UX: display a message that the previous kick vote is in the process of being canceled, please wait.
+>   - If p4 initiates a kick vote (say, to kick p2) while the previous kick vote is active...
+>     - If p1 or p3 vote no, the vote is canceled like normal
+>     - If p1 or p3 vote yes to kick p2, their client will first vote no to kick p4, then vote yes to kick p2 after the `kick-p4` vote is complete.
+>
+> ---
+>
+> I will note, this does not solve the case of ""friend X added people to the group and now we can't get rid of them"", since friend X would need to vote to kick the new person as well. It does allow the removal of inactive users.
+
+
+Ignoring a user instead of removing him from a group does not keep that user from reading messages (and responses to messages) in said group. Muting a user or a group does not really solve the problem, either. Wanting a certain user removed from a group does not usually mean that group members no longer want to hear from the group in general, nor does it necessarily mean that group members want the user muted in private conversations or other groups.
+
+Example given: a group of colleagues to discuss job related tasks. If one of the group members leaves the team or company, that person should no longer have access to the group, but people may still be friends with that person and keep communicating in private and in other, non work-related groups.
+
+Rebuildung large groups whenever a member is supposed to leave, is not a viable option.
+
+Why can the creator of a group not hold some key locally that identifies him as administrator of that group? Whoever has the key can alter the group. If someone without admin status wants to add a member, an amdin has to approve it. If the key is lost, the group can no longer be altered. However, if all users leave a group, it will be closed. So you could give up a group, if that happens.
+
+
+Greetings.
+
+Really not sure about the logic in posting to a closed thread...
+
+This is a complicated concept.  I originally was going to just say, ""me too,"" but that obviously went out of control.
+
+I agree with [gith-account](https://github.com/gith-account) that a central admin should be the sole person responsible for the thread/group.  The current solution of requiring members to unsubscribe or leave the group is not that great, but I understand the simplicity of it.
+
+As a safety, and to complicate things, there could be a mutiny feature, which would allow either a majority or a complete vote to ""kick"" the admin and assign a new admin.  The admin would not be allowed to vote.  This would also provide a backup if the admin loses their device, or just goes silent for an extended amount of time.  In situations where there is an even amount of recipients or voters and a tie occurs, an automatic re-vote would take place with a notification that there was a tie, then if the tie remains, no change would take place regarding the admin.  Any user, including the admin, could initiate a mutiny vote.  (Would be good if there was also the ability for the admin to voluntarily step down and assign a successor.)  All mutiny votes would require a single non-admin recipient be listed as the pending new admin.  The admin would not be kicked from the group following a successful mutiny, they would simply be demoted.  If the new admin decides to kick them, so be it.
+
+Something that would push into another feature request would be the ability to remotely destroy threads.  If a device is lost or stolen, then the authentication to remotely kill the old instance would be the private key (from a backup).  No backup, no remote kill.  Related threads: [#1764](https://github.com/WhisperSystems/Signal-Android/issues/1764), [#5713](https://github.com/WhisperSystems/Signal-Android/issues/5713), [#643](https://github.com/WhisperSystems/Signal-Desktop/issues/643)
+
+Group conversations would have to provide some type of secondary/tertiary key, unique to that thread.  The necessary portion of the key to authenticate would need to be sent to the admin of the group.  In a case of a mutiny, the keys would need to be regenerated by all members and passed to the new admin (the old admin would have bad keys and could be purged by the old admin when they next do a backup).  This key would obviously also have to be included in any backup done by the active admin.  (I am not sure how groups are currently encrypted ... using each recipients individual keys or by creating a new key ... if via a new key then a third key would be required for this feature.)
+
+I mention this remote kill feature because it is applicable to a group discussion in which sensitive information is shared, but a user is removed from the group, or a user loses their device.  This is also applicable for all recipients of a group that are kicked from the group.  The admin could then initiate a member validation check in which selected members optionally have their conversation history wiped, then are kicked from the group.  I say, ""optionally,"" to allow the admin the option to wipe their conversation or not, as sometimes it may be acceptable for the kicked recipient to retain the conversation history to that point.  If it is not acceptable for them to retain it, then the admin would make that decision when kicking them.  This could not be changed once the kick is completed.  Related threads: [#5455](https://github.com/WhisperSystems/Signal-Android/issues/5455), [#5594](https://github.com/WhisperSystems/Signal-Android/issues/5594)
+
+Oh yeah, the other aspect of group administration which is a wee bit frustrating is that anyone can force anyone into a group.  I would like for membership to be voluntary rather than mandatory.  Well, as I am typing this I just realized I have only added people to a group and have never been added to a group ... so it may be voluntary currently.  If not, see first two sentences of this paragraph.  :)
+
+With regard to non-admin's making kick requests, these can realistically just be done directly, outside of the group thread.  For instance, if USER1 wants to kick USER6, rather than create a new capability within the group administration for this type of request, USER1 could just directly communicate, outside of the group, with the ADMIN and say something like, ""Yo, USER6 is a lame anchor, I recommend you kick them.""
+
+FWIW, i may be open to publishing this post in hardback for an early release next summer ....
+
+
+@TimesEnemy That seems _way_ too complex, not only to develop but also as a Signal user. Reading over my previous post, I think that's also waaaayy too complicated for Signal. Here's something simpler: Give each user the option to ""fork"" a group.
+
+@moxie0 @liliakai Would you consider this as an alternative to centralized group administration?
+
+**UX:**
+1. Enter group
+2. Choose ""fork""
+3. Select a subset of participants from the group, optionally change the group name or picture
+   - Almost the same UX as current ""update group"" screen.
+4. Choose ""continue""
+5. Group shows that you forked it (same style as when you add someone)
+6. A new group is created with participants you selected in step 3
+7. Each person's devices _locally_ import saved history from the original group (which is not changed in any way)
+
+**Backend:**
+
+It's exactly like creating a brand new group, with one twist: The ""Group was forked"" alert contains an ID number (presumably something like a signed hash of the group's current metadata). When you create the new group, your message includes the same ID number. That's how devices know how to import history.
+
+I'm not sure if we have a guarantee which message will arrive first. If there's no guarantee, it's easy enough to check for a matching ID upon receipt of either message and populate the history retroactively if necessary.
+
+---
+
+**Use cases:**
+- Someone uninstalls signal and the group is getting error messages
+- A device is compromised
+- Someone is spamming the group
+- A subset of people in the group want to start a discussion less generally relevant
+  - Eg, my friends have a group chat; I fork the group to plan an event.
+
+Other pro: Doesn't add any new abuse cases, since it's really just a shortcut for existing functionality.
+
+
+@smichel17 interesting idea, could be a pragmatic solution to many problems. I wonder whether the github-y ""fork"" terminology would be understood by the user, though
+
+> Someone uninstalls signal and the group is getting error messages
+
+should no longer happen due to #5318
+
+
+@haffenloher
+
+> I wonder whether the github-y ""fork"" terminology would be understood by the user, though
+
+Definitely not the best terminology; In addition to what you mentioned, it's not even really consistent with what it means to fork something here -- when you first fork something, it's identical to upstream, then diverges as you develop; with this feature, the new group gets changed right away.
+
+I used it because I knew it would be immediately understood by this crowd. If OWS is interested in iterating on this direction, we can do a brainstorm for better words.
+
+> should no longer happen due to #5318
+
+There are still prominent error messages on desktop. That said, it's a good point that this is better addressed by improving how clients handle unregistration than introducing this as a workaround. I think the other use cases still stand.
+
+
+@moxie0 @liliakai @michaelkirk A version that adds even less complexity/change:
+- From the current ""Update group"" screen, allow users to remove others from the group
+- If the user chooses to do this, show a message on-screen that this won't kick anybody out; it'll start a new ""fork"" of the conversation without those people.
+- Create the fork in two steps. Step 1 uses the process above; step 2 adds any participants (a normal group modification)
+
+
+@smichel17 I fear with the signal server dropping messages when a device's queue is full, forking groups will lead to chaos and unknown groups on devices that are not always online.
+
+Do we have any information how WhatsApp handles it?
+
+
+@Trolldemorted I didn't consider that before. However, I don't think it will be a problem. Take the use cases I listed above, where `N` is the number of people in the original conversation and `M` is the number in the fork:
+
+> A device is compromised
+
+Group is forked (`M+N`), then everyone continues using the new group uninterrupted and with no behavior change.
+
+> Someone is spamming the group
+
+This was already a problem, but it's still only `M+N` for the fork and then `(N^2)/2` as each person leaves the original group -- that's much less than a spammer could flood the group with, and only `N` different from manually recreating the group from scratch (or maybe better, if there's no one person who can add everyone to the group, requiring it to created and then modified several times). So it's bad, but overall better than the alternative.
+
+> A subset of people in the group want to start a discussion less generally relevant
+
+This one _seems_ like it would be problematic (after all, you could get many groups popping up all over the place!), but actually is a net _decrease_ in the size of someone's queue. Each fork is `M+N`, but after that, you save `N-M` on each message you send in the new group that you would have sent to the main group. It is possible that having more groups would cause the behavior change of chatting more, since you're not worried about flooding the main conversation.
+
+
+@\all Do you think this idea is good enough for me to open a new issue about it rather than continuing discussion in this closed issue? Any other concerns we should flesh out before doing so?
+
+
+@smichel17 You missunderstood, the queue won't be full due to the messages of the actual fork, but due to normal messages being sent.
+
+My Signal-Desktop's queue is full every weekend, so both messages and group updates are dropped. If the fork messages get dropped, my device will have received no group update from the new group, consider the old group valid, and receive messages from an unknown group (since the other members consider myself a valid member).
+
+Having a single or a set of administrators is the only way to go, i think.
+
+
+@Trolldemorted isn't that already a problem if you get added to a new group over the weekend?
+
+
+@smichel17 of course it is, that is why i would like it to not get worse.
+
+
+""I have a leaky faucet, so I'm going to use hand sanitizer instead of washing my hands."" -> This is a decent stop-gap measure, but really, we should just fix the faucet so you can wash your hands again.
+
+""There's a serious drought, so I'm going to use hand sanitizer instead of washing my hands."" -> This makes more sense as a long-term solution. Not necessarily one we're happy with, but it might be the best option available.
+
+@Trolldemorted That is to say, I think we should prefer a centralized solution if and _only_ if your problem is unfixable. Otherwise, we should prefer this solution, but wait to implement until your issue is resolved.
+
+
+Well, i do not even know if it is considered a problem or as ""working as intended"", and i do not think there is an easy way to fix it either.
+
+But with potentially dropped messages, out-of-order delivery, and unstable clients the centralized way is the only one to go imho. Signal's groups are async or otherwise damaged every few weeks for me, adding more complexity that relies on stability is no way to go.
+
+
+> Otherwise, we should prefer this solution, but **wait to implement until your issue is resolved**
+
+edit: sorry, that was cheeky. What I'm saying is -- Imagine your issue didn't exist. Which solution do you prefer, the centralized or decentralized one?
+
+Now jump back to reality. If your previous answer was ""decentralized"", then our goal should be to first resolve your issue, then implement the decentralized solution.
+
+Just because groups are unstable _right now_ doesn't mean centralized is the only way to go, period.
+
+
+On 05-10-2016 22:24, Trolldemorted wrote:
+
+> But with potentially dropped messages, out-of-order delivery, and
+> unstable clients the centralized way is the only one to go imho.
+
+It does have serious privacy issues: we just learned yesterday that Open
+Whispersystems was subphoenaed with a gag order about some account. In
+the current system, they fortunately could not deliver any usefull
+information about users.
+
+##
+
+Met vriendelijke groet,
+
+Johan Wevers
+
+
+Going to ask this here just because I can (without opening a new bug).
+
+
+
+Is there any merit to automatically removing users from groups when they unregister (of course, they should leave any groups they belong to on their own, but people often forget)?"
+48,Signal ,898,Search field missing in group creation dialog,"When creating a group and adding contacts, there is no search field on top of the contact list.
+
+This search field _is_ present when composing a single message and a contact must be picked. Because it's missing in the contact picker when creating a group, it is harder to add contacts to a group.",3,"
+
+There is a search field directly in the ""Add Group"" dialog.
+Instead of clicking on the plus sign, you can type into the ""Add member"" field and a list of search results pops up.
+Although i agree that it would be way more intuitive if both dialogs behaved the same way.
+
+
+@SanderGit I'm planning on adding filtering to the contact selection activity, and that will fix this issue. Thanks for posting! Will keep this issue updated when it's up for review.
+
+
+Resolved!"
+49,Signal ,6111,Wishlist: Possibility to delete images in gallery mode (and when opened),"I have:
+
+- [X] searched open and closed issues for duplicates
+
+- [X] read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports
+
+
+
+----------------------------------------
+
+
+
+### Feature description
+
+When opening ""Image gallery"" (or lateron media gallery due to #5941) I would like to be able to multiselect images/media and delete them.
+
+And when opening an image/media, I would like to have the possibility to delete it in this opened view.
+
+
+
+Maybe putting this option behind a settings menu as the action bar already contains forward, save, All Images. (In Gallery mode only save).
+
+IMO there should be a dialog, if you really want to delete this (all the selected images).
+
+
+
+---
+
+~One point to think about is the corresponding messaged (text).
+
+At the moment, it's only possible to delete the whole messagte (text + image/media) by selecting it right in the conversation.
+
+When deleting in the gallery mode or when opened, the corresponding text is not visible to the user, so maybe it should be contained (with a hint to the deleted image/media)?~[Edit: Duplicate of #4242]",5,"
+
+Duplicate of #4242
+
+@FeuRenard You're right, the possibility to delete images/media unrelated to the corresponding text is a duplicate.
+
+I addressed this by editing the description of the issue.
+
+
+
+IMO the possibility to delete the image/media out of gallery mode (or when open) is not a duplicate, even if it would solve #4242.
+
+If #4242 is implemented only in conversation view, my feature request would differ.
+
+I'm glad @haffenloher implemented this feature, I hope it gets merged soon.
+
+
+
+This is especially important for people who have been using Signal for a long time and have a large database (I know people for which the Signal app is using easily over 1 GB of data by now!). Right now it is impossible to export then delete all media from the database, and the workaround of making a plain-text backup, deleting Signal data, then re-importing it also isn't feasible due to #3024. So #6165 really really improves this situation a lot.
+
+> Possibility to delete images (...) when opened
+
+
+
+is a duplicate of #2798
+
+GitHub Issue Cleanup:
+See #7598 for more information."
+50,Signal ,226,Ability to edit messages for security,"My understanding of OTR protocol is that you are guarantied to be the sender of a message when it is received but the protocol also guaranties that nobody can prove a message was sent by you at a later point. Like a real life conversation. ""If know you said something to me, but I can not prove it at a later point"".
+
+This is great but unless TextSecure somehow allows people to alter the past of a conversation the app itself does provide a reasonable proof/indication that I said something in the past.
+
+Example: My friends phone is ceased and he is compromised to unlock TextSecure. OTR does not in any way guarantee I had our long conversation but since my friend is not a skilled hacker/developer able to alter the TextSecure database the conversation itself it a pretty good indicator/proof of the conversation being authentic.
+
+Solution: Add the option to edit a message (any message) from the Android Context Menu just like you can delete a message. Maybe also add the ability to insert a new message next to it.",6,"
+
+Or... another way to prevent a friendly compromised user from showing your Secure messages would be to add a second pass phrase to the system that if entered destroys the data.  May also want to consider an anti-database copy to the system so that it someone attempts to backup the encrypted database it is automatically destroyed. 
+
+
+Might also be a good idea to add auto-destruct to certain messages.  So after a certain amount of time the data is automatically deleted.
+
+
++1
+@Cleanshooter some of what you propose is also part of the discussion of issue #175
+
+
+https://github.com/WhisperSystems/TextSecure/issues/1764#issuecomment-51551662:
+
+> From a security perspective while you can prove you possess something, there's no such thing as proving you or other parties do not possess something. Because of that, any ephemeral messaging solution will, at best, be considered one party politely asking the other to ""do the right thing.""
+
+
+I think the ability to edit messages would help deniability a lot. It would be a nice feature to have.
+
+
+thanks but i don't think we're going to do this"
